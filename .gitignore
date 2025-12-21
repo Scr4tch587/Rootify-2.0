@@ -80,3 +80,5 @@ dmypy.json
 .pytype/
 
 # Cython debug symbols
+
+*.pyc
