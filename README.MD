@@ -3,7 +3,7 @@
 
 Rootify is an **evidence-first music discovery system** that maps **artist influences** using real textual sources instead of opaque similarity metrics.
 
-Given an artist name, Rootify aims to return:
+Given an artist name, Rootify returns:
 - a ranked list of influencing artists  
 - concrete **textual evidence** supporting each influence  
 - **citations** pointing to where each claim came from  
@@ -40,67 +40,88 @@ This makes Rootify:
 - Alembic migrations for schema versioning  
 - Idempotent artist creation (safe re-creation without duplicates)  
 
-#### Data Model
-- Relational schema designed for **evidence-first reasoning**
-- Artists stored as canonical nodes
-- Evidence stored as **raw, traceable text** (not derived claims)
+#### Evidence-First Data Model
+- **Artists** as canonical nodes  
+- **Evidence sections** stored as raw, traceable text (Wikipedia sections)
+- **Evidence claims** stored separately as *derived artifacts*
+- Clear separation between:
+  - *source evidence* (immutable text)
+  - *derived claims* (recomputable outputs)
+
+This enables reproducibility, auditability, and safe re-extraction.
 
 #### Wikipedia Ingestion Pipeline (Evidence Source #1)
-- Dynamic Wikipedia page fetch by artist name
-- Section-tree traversal (including nested subsections)
+- Dynamic Wikipedia page fetch by artist name  
+- Full section-tree traversal (including nested subsections)  
 - Keyword-prioritized section selection:
   - Influences  
   - Artistry  
   - Musical style  
   - Songwriting  
   - Themes  
-  - Background / Career (fallback)
-- Automatic fallback to full-page text when no relevant sections exist
-- Empty or container-only sections filtered out
-- One database row per meaningful section
-- Safe re-ingestion (delete + reinsert per artist/source)
-- Fully async ingestion and persistence
-- FastAPI endpoint to trigger ingestion on demand
+  - Background / Career (fallback)  
+- Automatic fallback to full-page text if no relevant sections exist  
+- Empty or container-only sections filtered out  
+- One database row per meaningful section  
+- **Safe re-ingestion** (delete + reinsert per artist/source)  
+- Fully async ingestion and persistence  
 
-#### API Endpoints
-- `GET /health`
-- `POST /artists` (idempotent get-or-create)
-- `GET /artists`
-- `POST /artists/{artist_id}/ingest/wikipedia`
+#### Evidence → Claim Extraction
+- Rule-based extraction of **explicit influence statements**
+- Pattern-based detection (e.g. “influenced by”, “draws inspiration from”)
+- Claims stored with:
+  - influence artist
+  - snippet
+  - section path
+  - pattern type
+  - extraction version
+- Deduplication via unique constraint across semantic claim fields  
+
+#### Cache Invalidation & Versioning (Major Milestone)
+- **Two-layer cache model**:
+  - Evidence freshness (time-based TTL)
+  - Claim freshness (extraction-version based)
+- Deterministic cache decision logic:
+  - Re-ingest evidence if stale or missing
+  - Re-extract claims if logic version changes
+- O(1) staleness checks using:
+  - max(evidence.created_at)
+  - stored extraction_version
+- Guarantees:
+  - No stale claims
+  - No unnecessary recomputation
+  - Safe evolution of extraction logic
+
+#### Service-Layer Orchestration
+- Clear separation between:
+  - HTTP endpoints
+  - cache policy
+  - ingestion pipelines
+  - extraction pipelines
+- Services decide *what* to refresh
+- Pipelines focus on *how* to compute
+- Endpoints remain thin and declarative
 
 ---
 
-### 🚧 In Progress / Planned
+### API Endpoints
 
-#### Evidence → Influence Extraction
-- Sentence-level extraction of **explicit artist-to-artist influence claims**
-- Rule-based phrase detection (e.g. “influenced by”, “draws inspiration from”)
-- Named-entity validation to ensure **artists only** appear as nodes
+#### Core
+- `GET /health`
+- `POST /artists` (idempotent get-or-create)
+- `GET /artists`
 
-#### Explainable ML Components
-- Sentence-level classifier to score likelihood of influence claims  
-- Evidence weighting based on:
-  - phrasing strength  
-  - source type  
-  - repetition across documents  
-- Aggregation of evidence into influence edges
-- Learning-to-rank model over aggregated edge features
+#### Ingestion & Extraction
+- `POST /artists/{artist_id}/ingest/wikipedia`
+- `POST /artists/{artist_id}/extract/wikipedia`
 
-#### Additional Evidence Sources
-- Wikidata (structured “influenced by” relations)
-- YouTube interview transcripts (first-person statements)
-- Reviews / journalism (critical commentary)
-
-#### Read & Query APIs
-- Fetch evidence per artist
-- Fetch ranked influences with expandable citations
-- Support for reproducible results and debugging
-
-#### Frontend (Later Stage)
-- React (Vite) frontend
-- Ranked influence lists
-- Expandable evidence cards
-- Source badges and citation links
+#### Read APIs
+- `GET /artists/{artist_id}/influences`
+  - Automatically:
+    - checks cache freshness
+    - re-ingests evidence if needed
+    - re-extracts claims if needed
+    - returns ranked, explainable influence results
 
 ---
 
@@ -109,7 +130,8 @@ This makes Rootify:
 - **Artists are the only nodes**
 - **Edges represent influence, not similarity**
 - **No influence without textual evidence**
-- **ML assists reasoning, it does not replace it**
+- **Derived data is always recomputable**
+- **Cache invalidation is explicit and deterministic**
 - **All outputs must be explainable in an interview**
 
 ---
@@ -125,7 +147,8 @@ This makes Rootify:
 **Data & NLP**
 - spaCy
 - pandas
-- (Planned) sentence-level classifiers and ranking models
+- Rule-based extraction (current)
+- ML-assisted ranking (planned)
 
 **Database**
 - PostgreSQL
@@ -149,4 +172,3 @@ docker compose up -d
 
 # stop services
 docker compose down
-```
