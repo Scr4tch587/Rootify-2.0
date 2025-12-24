@@ -1,5 +1,7 @@
-from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
+from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, relationship
 from sqlalchemy import String, Boolean, DateTime, ForeignKey, Integer, Text, func
+from datetime import datetime
+import sqlalchemy as sa
 
 class Base(DeclarativeBase):
     pass
@@ -9,6 +11,12 @@ class Artist(Base):
 
     id: Mapped[int] = mapped_column(primary_key=True)
     name: Mapped[str] = mapped_column(String(255), nullable=False, unique=True)
+
+    evidence_claims = relationship(
+        "EvidenceClaim",
+        back_populates="artist",
+        cascade="all, delete-orphan",
+    )
 
 class EvidenceSection(Base):
     __tablename__ = "evidence_sections"
@@ -23,3 +31,28 @@ class EvidenceSection(Base):
 
     is_fallback: Mapped[bool] = mapped_column(Boolean, nullable=False, server_default="false")
     created_at: Mapped[object] = mapped_column(DateTime, nullable=False, server_default=func.now())
+
+class EvidenceClaim(Base):
+    __tablename__ = "evidence_claims"
+
+    id: Mapped[int] = mapped_column(primary_key=True)
+     
+    artist_id: Mapped[int] = mapped_column(
+        ForeignKey("artists.id", ondelete="CASCADE"),
+        index=True,
+        nullable=False,
+    )
+
+    source: Mapped[str] = mapped_column(nullable=False)
+    influence_artist: Mapped[str] = mapped_column(index=True, nullable=False)
+    pattern_type: Mapped[str] = mapped_column(nullable=False)
+
+    section_path: Mapped[str] = mapped_column(nullable=False)
+    snippet: Mapped[str] = mapped_column(Text, nullable=False)
+
+    created_at: Mapped[datetime] = mapped_column(
+        server_default=sa.text("now()"),
+        nullable = False,
+    )
+
+    artist: Mapped["Artist"] = relationship(back_populates="evidence_claims")
