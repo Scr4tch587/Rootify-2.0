@@ -29,16 +29,16 @@ def upgrade() -> None:
         sa.Column("section_path", sa.String(), nullable=False),
         sa.Column("snippet", sa.Text(), nullable=False),
         sa.Column("created_at", sa.DateTime(timezone=True), server_default=sa.text("now()"), nullable=False),
+        sa.Column("extraction_version", sa.String(), nullable=True),
     )
 
     op.create_index(
         "uq_evidence_claims_dedupe",
         "evidence_claims",
         ["artist_id", "source", "influence_artist", "section_path", "snippet"],
+        unique=True,
     )
 
 def downgrade() -> None:
-    op.drop_constraint("uq_evidence_claims_dedupe", "evidence_claims", type_="unique")
-    op.drop_index("ix_evidence_claims_influence_artist", table_name="evidence_claims")
-    op.drop_index("ix_evidence_claims_artist_id", table_name="evidence_claims")
+    op.drop_index("uq_evidence_claims_dedupe", table_name="evidence_claims")
     op.drop_table("evidence_claims")

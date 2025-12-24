@@ -28,7 +28,7 @@ def upgrade() -> None:
         sa.Column('section_path', sa.Text(), nullable=False),
         sa.Column('text', sa.Text(), nullable=False),
         sa.Column("is_fallback", sa.Boolean(), nullable=False, server_default=sa.text("False")),
-        sa.Column('created_at', sa.DateTime(), nullable=False, server_default=sa.text("now()")),
+        sa.Column('created_at', sa.DateTime(timezone=True), nullable=False, server_default=sa.text("now()")),
         sa.UniqueConstraint('artist_id', 'source', 'section_path', name='uq_evidence_sections_artist_source_section_path'),
     )
     op.create_index(

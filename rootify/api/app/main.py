@@ -1,6 +1,7 @@
 from fastapi import Depends, FastAPI, HTTPException
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select
+from datetime import datetime, timedelta
 
 from app.db import get_db
 from app.schemas import ArtistCreate, ArtistOut, EvidenceSectionOut, InfluenceCandidateOut, InfluenceOut
@@ -11,6 +12,8 @@ from app.pipeline.claims_store import replace_claims_for_artist
 from app.pipeline.wiki_store import store_wikipedia_sections
 from app.pipeline.influence_rules import extract_influence_candidates 
 from app.pipeline.influence_aggregate import aggregate_influence
+from app.services.claims import extract_and_store_wikipedia_claims
+from app.services.influences import get_influences
 
 app = FastAPI()
 
@@ -74,39 +77,15 @@ async def read_influences(
     source: str | None = None,
     db: AsyncSession = Depends(get_db),
 ):
-    sections = await get_evidence_sections(
+    return await get_influences(
+        db=db, 
         artist_id=artist_id,
         source=source,
-        db=db,
     )
-    candidates = []
-    for sec in sections:
-        cands = extract_influence_candidates(sec.text, sec.section_path)
-        candidates.extend(cands)
-
-    return aggregate_influence(candidates)
 
 @app.post("/artists/{artist_id}/extract/wikipedia")
 async def extract_wikipedia_claims(
     artist_id: int,
     db: AsyncSession = Depends(get_db),
-):
-    sections = await get_evidence_sections(artist_id=artist_id, source="wikipedia", db=db)
-
-    candidates = []
-    for sec in sections:
-        candidates.extend(extract_influence_candidates(sec.text, sec.section_path))
-
-        await replace_claims_for_artist(
-            db=db,
-            artist_id=artist_id,
-            source="wikipedia",
-            claims=candidates,
-        )
-
-        return {
-            "artist_id": artist_id,
-            "source": "wikipedia",
-            "sections_used": len(sections),
-            "claims_extracted": len(candidates),
-        }
+):  
+    return await extract_and_store_wikipedia_claims(db, artist_id)  

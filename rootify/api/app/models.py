@@ -15,7 +15,7 @@ class Artist(Base):
     evidence_claims = relationship(
         "EvidenceClaim",
         back_populates="artist",
-        cascade="all, delete-orphan",
+    
     )
 
 class EvidenceSection(Base):
@@ -30,7 +30,7 @@ class EvidenceSection(Base):
     text: Mapped[str] = mapped_column(Text, nullable=False)
 
     is_fallback: Mapped[bool] = mapped_column(Boolean, nullable=False, server_default="false")
-    created_at: Mapped[object] = mapped_column(DateTime, nullable=False, server_default=func.now())
+    created_at: Mapped[object] = mapped_column(DateTime(timezone=True), nullable=False, server_default=func.now())
 
 class EvidenceClaim(Base):
     __tablename__ = "evidence_claims"
@@ -51,8 +51,10 @@ class EvidenceClaim(Base):
     snippet: Mapped[str] = mapped_column(Text, nullable=False)
 
     created_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True),
         server_default=sa.text("now()"),
-        nullable = False,
+        nullable=False,
     )
 
     artist: Mapped["Artist"] = relationship(back_populates="evidence_claims")
+    extraction_version: Mapped[str] = mapped_column(nullable=False)
