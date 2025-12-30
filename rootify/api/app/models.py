@@ -58,3 +58,19 @@ class EvidenceClaim(Base):
 
     artist: Mapped["Artist"] = relationship(back_populates="evidence_claims")
     extraction_version: Mapped[str] = mapped_column(nullable=False)
+    claim_probability: Mapped[float] = mapped_column(nullable=False, default=1.0)
+
+class InfluenceCandidate(Base):
+    __tablename__ = "influence_candidates"
+    artist_id: Mapped[int] = mapped_column(
+        ForeignKey("artists.id", ondelete="CASCADE"),
+        index=True,
+        nullable=False,
+    )
+    source: Mapped[str] = mapped_column(nullable=False)
+    influence_artist_raw: Mapped[str] = mapped_column(index=True, nullable=False)
+    section_path: Mapped[str] = mapped_column(nullable=False)
+    snippet: Mapped[str] = mapped_column(Text, nullable=False)
+    candidate_method: Mapped[str] = mapped_column(nullable=False)
+    mention_start: Mapped[int] = mapped_column(nullable=True)
+    mention_end: Mapped[int] = mapped_column(nullable=True)

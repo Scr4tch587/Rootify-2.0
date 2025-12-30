@@ -22,6 +22,7 @@ async def replace_claims_for_artist(db: AsyncSession, artist_id: int, source: st
                 section_path=c["section_path"],
                 snippet=c["snippet"],   
                 extraction_version=CURRENT_EXTRACTION_VERSION,
+                claim_probability=c["claim_probability"] if "claim_probability" in c else 1.0,
             )
             for c in claims
         ]

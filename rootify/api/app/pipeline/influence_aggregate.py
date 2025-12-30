@@ -1,16 +1,22 @@
 def aggregate_influence(candidates):
-    weights = {"direct": 3.0, "strong": 2.0, "weak": 1.0}
+    weights = {"direct": 3.0, "strong": 2.0, "weak": 0.5}
 
     buckets = {}
     for c in candidates:
         name = c["influence_artist"]
         buckets.setdefault(name, []).append(c)
     
+    def item_rank(it):
+        return (-weights.get(it["pattern_type"], 0.0), it["section_path"], it["snippet"])
+    
     out = []
     for name, items in buckets.items():
-        score = 0.0
-        for it in items:
-            score += weights.get(it["pattern_type"], 0.0)
+        score = sum(
+            weights.get(it["pattern_type"], 0.0) * it.get("claim_probability", 1.0)
+            for it in items
+        )
+        score = round(score, 3)
+        items_sorted = sorted(items, key=item_rank)
 
         evidence = [
             {
@@ -18,7 +24,7 @@ def aggregate_influence(candidates):
                 "snippet": it["snippet"],
                 "pattern_type": it["pattern_type"],
             }
-            for it in items
+            for it in items_sorted
         ]
 
         out.append(
