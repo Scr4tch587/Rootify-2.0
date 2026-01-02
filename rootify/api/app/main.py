@@ -1,3 +1,4 @@
+from app.services.seed_variants import seed_artist_variants_index
 from fastapi import Depends, FastAPI, HTTPException
 from sqlalchemy.ext.asyncio import AsyncSession
 
@@ -14,11 +15,18 @@ from app.services.claims import extract_and_store_wikidata_claims
 from app.services.claims import extract_and_store_youtube_claims
 from app.services.influences import get_influences
 
+# TEST ONLY
+from app.pipeline.youtube_candidates import test_string, extract_youtube_candidates
+
 app = FastAPI()
 
 @app.get("/health")
 def health_check():
     return {"status": "healthy"}
+
+@app.post("/admin/seed_artist_index")
+async def seed_artist_index(db: AsyncSession = Depends(get_db)):
+    return await seed_artist_variants_index(db)
 
 @app.post("/artists/", response_model=ArtistOut)
 async def post_artist(payload: ArtistCreate, db: AsyncSession = Depends(get_db)):
@@ -114,4 +122,11 @@ async def extract_youtube_claims(
     artist_id: int,
     db: AsyncSession = Depends(get_db),
 ):  
-    return await extract_and_store_youtube_claims(db, artist_id)  
+    return await extract_and_store_youtube_claims(db, artist_id)
+
+@app.get("/test")
+async def test_endpoint(
+    db: AsyncSession = Depends(get_db),
+):
+    candidates = await extract_youtube_candidates(db, test_string)
+    return candidates

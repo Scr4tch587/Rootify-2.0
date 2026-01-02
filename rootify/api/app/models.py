@@ -60,17 +60,43 @@ class EvidenceClaim(Base):
     extraction_version: Mapped[str] = mapped_column(nullable=False)
     claim_probability: Mapped[float] = mapped_column(nullable=False, default=1.0)
 
-class InfluenceCandidate(Base):
-    __tablename__ = "influence_candidates"
-    artist_id: Mapped[int] = mapped_column(
-        ForeignKey("artists.id", ondelete="CASCADE"),
-        index=True,
+class ArtistNameVariant(Base):
+    __tablename__ = "artist_name_variants"
+    __table_args__ = (
+        sa.UniqueConstraint(
+            "variant_norm",
+            "canonical_name",
+            name="uq_artist_name_variants_variant_norm_canonical_name",
+        ),
+    )
+    id: Mapped[int] = mapped_column(primary_key=True, nullable=False)
+     
+    canonical_name: Mapped[str] = mapped_column(nullable=False)
+    variant_name: Mapped[str] = mapped_column(nullable=False)
+    variant_norm: Mapped[str] = mapped_column(index=True, nullable=False)
+    first_token: Mapped[str] = mapped_column(index=True, nullable=False)
+    token_count: Mapped[int] = mapped_column(nullable=False)
+    char_len: Mapped[int] = mapped_column(nullable=False)
+    source: Mapped[str] = mapped_column(nullable=False)
+    match_form: Mapped[str] = mapped_column(nullable=False)
+    created_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True),
+        server_default=sa.text("now()"),
         nullable=False,
     )
-    source: Mapped[str] = mapped_column(nullable=False)
-    influence_artist_raw: Mapped[str] = mapped_column(index=True, nullable=False)
-    section_path: Mapped[str] = mapped_column(nullable=False)
-    snippet: Mapped[str] = mapped_column(Text, nullable=False)
-    candidate_method: Mapped[str] = mapped_column(nullable=False)
-    mention_start: Mapped[int] = mapped_column(nullable=True)
-    mention_end: Mapped[int] = mapped_column(nullable=True)
+
+# class InfluenceCandidate(Base):
+#     __tablename__ = "influence_candidates"
+#     artist_id: Mapped[int] = mapped_column(
+#         ForeignKey("artists.id", ondelete="CASCADE"),
+#         index=True,
+#         nullable=False,
+#     )
+#     mbid: Mapped[str] = mapped_column(index=True, nullable=True)
+#     source: Mapped[str] = mapped_column(nullable=False)
+#     influence_artist: Mapped[str] = mapped_column(index=True, nullable=False)
+#     section_path: Mapped[str] = mapped_column(nullable=False)
+#     snippet: Mapped[str] = mapped_column(Text, nullable=False)
+#     mention_text: Mapped[str] = mapped_column(Text, nullable=False)
+#     candidate_method: Mapped[str] = mapped_column(nullable=False)
+#     match_form: Mapped[str] = mapped_column(nullable=True)

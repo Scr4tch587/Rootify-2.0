@@ -97,3 +97,9 @@ YOUTUBE_ARTIST_SEED = [
     "Max Martin",
     "Rick Rubin",
 ]
+
+THE_STRIP_DENY = {
+    "the who",
+    "the cure",
+    "the band",
+}
