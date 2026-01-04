@@ -13,10 +13,11 @@ from app.pipeline.influence_rules import extract_influence_candidates
 from app.services.claims import extract_and_store_wikipedia_claims
 from app.services.claims import extract_and_store_wikidata_claims
 from app.services.claims import extract_and_store_youtube_claims
+from app.services.dataset_generator import generate_dataset_for_artist
 from app.services.influences import get_influences
 
 # TEST ONLY
-from app.pipeline.youtube_candidates import test_string, extract_youtube_candidates
+from app.pipeline.youtube_candidates import extract_youtube_candidates
 
 app = FastAPI()
 
@@ -31,6 +32,15 @@ async def seed_artist_index(db: AsyncSession = Depends(get_db)):
 @app.post("/artists/", response_model=ArtistOut)
 async def post_artist(payload: ArtistCreate, db: AsyncSession = Depends(get_db)):
     return await create_artist(db, payload.name)
+
+@app.post("/artists/bulk", response_model=list[int])
+async def post_artists_bulk(payload: list[ArtistCreate], db: AsyncSession = Depends(get_db)):
+    """Create or return existing artists for a list of artist payloads and return their ids."""
+    ids: list[int] = []
+    for artist in payload:
+        created = await create_artist(db, artist.name)
+        ids.append(created.id)
+    return ids
 
 @app.get("/artists/", response_model=list[ArtistOut])
 async def get_artists(db: AsyncSession = Depends(get_db)):
@@ -124,9 +134,50 @@ async def extract_youtube_claims(
 ):  
     return await extract_and_store_youtube_claims(db, artist_id)
 
-@app.get("/test")
-async def test_endpoint(
+@app.get("/generate_dataset/")
+async def generate_dataset(
     db: AsyncSession = Depends(get_db),
-):
-    candidates = await extract_youtube_candidates(db, test_string)
-    return candidates
+):  
+    TIER_1_ARTIST_IDS = [
+        1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
+    ]
+
+    TIER_2_ARTIST_IDS = [
+        16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30
+    ]
+
+    TIER_3_ARTIST_IDS = [
+        31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43
+    ]
+
+    TIER_4_ARTIST_IDS = [
+        44, 45, 46, 47, 48, 49, 50, 51
+    ]
+
+    TIER_5_ARTIST_IDS = [
+        52, 53, 54, 55, 56, 57, 58
+    ]
+
+    TIER_6_ARTIST_IDS = [
+        59, 60, 61, 62, 63, 64, 65, 66, 67, 68
+    ]
+
+    TIER_7_ARTIST_IDS = [
+        69, 70, 71, 72, 73, 74, 75, 76, 77, 78
+    ]
+
+    TIER_8_ARTIST_IDS = [
+        79, 80, 81, 82, 83, 84, 85, 86
+    ]
+
+    input_texts = []
+    for id in TIER_8_ARTIST_IDS:
+        input_texts.extend(await generate_dataset_for_artist(db, id))
+    return input_texts
+
+# @app.get("/test")
+# async def test_endpoint(
+#     db: AsyncSession = Depends(get_db),
+# ):
+#     candidates = await extract_youtube_candidates(db, test_string)
+#     return candidates

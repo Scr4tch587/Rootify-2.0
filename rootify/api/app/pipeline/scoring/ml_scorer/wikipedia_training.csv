@@ -1,0 +1,576 @@
+id,input_text,label,bucket
+114,"[SUBJECT] Lana Del Rey [CANDIDATE] Billie Holiday [CONTEXT] Del Rey cites a wide array of musical artists as influences, including Andrew Lloyd Webber, Frank Sinatra, Nina Simone, Billie Holiday, Bobby Vinton, The Crystals, Brian Wilson, Nancy Sinatra, and Miles Davis.",1,positive
+153,"[SUBJECT] Travis Scott [CANDIDATE] Bon Iver [CONTEXT] He is also influenced by Bon Iver, Kid Cudi, M.I.A., Kanye West, Toro y Moi, Tame Impala, T.I., and Thom Yorke.",1,positive
+163,"[SUBJECT] Playboi Carti [CANDIDATE] Lil Wayne [CONTEXT] Almost all of Carter's raps are freestyled, which was directly inspired by Lil Wayne.",1,positive
+66,"[SUBJECT] R.E.M. [CANDIDATE] T. Rex [CONTEXT] Musically, Stipe stated that bands like T. Rex and Mott the Hoople ""really impacted me"".",1,positive
+112,"[SUBJECT] Lana Del Rey [CANDIDATE] Frank Sinatra [CONTEXT] Del Rey cites a wide array of musical artists as influences, including Andrew Lloyd Webber, Frank Sinatra, Nina Simone, Billie Holiday, Bobby Vinton, The Crystals, Brian Wilson, Nancy Sinatra, and Miles Davis.",1,positive
+186,"[SUBJECT] Daft Punk [CANDIDATE] Andy Warhol [CONTEXT] In 2009, Bangalter named Andy Warhol as one of Daft Punk's early influences.",1,positive
+178,"[SUBJECT] Herbie Hancock [CANDIDATE] Bill Evans [CONTEXT] Clare Fischer was a major influence on my harmonic concept... he and Bill Evans, and Ravel and Gil Evans, finally.",1,positive
+32,[SUBJECT] Kendrick Lamar [CANDIDATE] Miles Davis [CONTEXT] To Pimp a Butterfly was influenced by the works of jazz trumpeter Miles Davis and funk collective Parliament-Funkadelic.,1,positive
+13,"[SUBJECT] Bob Dylan [CANDIDATE] Jacques Levy [CONTEXT] Many of Desire's songs featuring a travelogue-like narrative style, influenced by Dylan's new collaborator, playwright Jacques Levy.",1,positive
+36,[SUBJECT] Björk [CANDIDATE] Steve Reich [CONTEXT] She has cited Steve Reich as one of the people who influenced her the most.,1,positive
+29,[SUBJECT] Neil Young [CANDIDATE] Bob Dylan [CONTEXT] Mitchell recalls Young as having been highly influenced by Bob Dylan at the time.,1,positive
+43,"[SUBJECT] The Velvet Underground [CANDIDATE] Booker T. & the M.G.s [CONTEXT] The other members were fans of doo-wop, Bo Diddley, and Booker T. & the M.G.s.",1,positive
+85,[SUBJECT] Led Zeppelin [CANDIDATE] Howlin' Wolf [CONTEXT] The influence of American blues artists such as Muddy Waters and Skip James was particularly apparent on their first two albums.,1,positive
+156,"[SUBJECT] Travis Scott [CANDIDATE] Kanye West [CONTEXT] He is also influenced by Bon Iver, Kid Cudi, M.I.A., Kanye West, Toro y Moi, Tame Impala, T.I., and Thom Yorke.",1,positive
+201,"[SUBJECT] Charli XCX [CANDIDATE] Uffie [CONTEXT] Charli XCX's influences include Britney Spears, Shampoo, No Doubt, t.A.T.u., the Donnas, Bikini Kill, Martika, Björk, Siouxsie and the Banshees, the Feminine Complex, Donna Summer, Bread, All Saints, Uffie, Brooke Candy, Lil Wayne, Lily Allen, Kate Bush, Twin Peaks, Paris Hilton, Justice, Crystal Castles, Calvin Harris, Daft Punk, Sebastian, Honey Dijon, Robyn, Arca, M.I.A., Autechre, Aphex Twin, and Quentin Tarantino.",1,positive
+52,"[SUBJECT] Sonic Youth [CANDIDATE] Stooges [CONTEXT] Sonic Youth was heavily influenced by the Velvet Underground, the Stooges, MC5, Glenn Branca, Rhys Chatham, Ornette Coleman, John Coltrane, La Monte Young, Neil Young, Yoko Ono, Brigitte Fontaine, Patti Smith, Wire, and Public Image Ltd.",1,positive
+137,[SUBJECT] Grimes [CANDIDATE] Billy Joel [CONTEXT] Art Angels was influenced by Billy Joel.,1,positive
+177,[SUBJECT] Herbie Hancock [CANDIDATE] The Hi-Lo's [CONTEXT] Hancock was also influenced by records of the vocal group the Hi-Lo's.,1,positive
+77,"[SUBJECT] Joy Division [CANDIDATE] David Bowie [CONTEXT] Curtis was inspired by artists such as the Doors, Iggy Pop, David Bowie, Kraftwerk, the Velvet Underground and Neu!.",1,positive
+42,[SUBJECT] The Velvet Underground [CANDIDATE] La Monte Young [CONTEXT] Cale brought classically-trained ideas and the influence of avant-garde composers John Cage and La Monte Young.,1,positive
+176,"[SUBJECT] John Coltrane [CANDIDATE] Johnny Hodges [CONTEXT] While in high school, Coltrane played clarinet and alto horn in a community band before switching to the saxophone, after being influenced by the likes of Lester Young and Johnny Hodges.",1,positive
+79,"[SUBJECT] Joy Division [CANDIDATE] the Doors [CONTEXT] Curtis was inspired by artists such as the Doors, Iggy Pop, David Bowie, Kraftwerk, the Velvet Underground and Neu!.",1,positive
+164,"[SUBJECT] Playboi Carti [CANDIDATE] Wiz Khalifa [CONTEXT] He recorded songs influenced by Wiz Khalifa, Currensy, and Odd Future.",1,positive
+27,"[SUBJECT] Brian Eno [CANDIDATE] Terry Riley [CONTEXT] Whilst inspired by the ideas of minimalist composers including John Cage, Terry Riley, Steve Reich.",1,positive
+148,"[SUBJECT] Grimes [CANDIDATE] Salem [CONTEXT] Some of her other influences include Jedi Mind Tricks, Kenji Kawai, Yoko Kanno, Alicia Keys, Christina Aguilera, Panda Bear, Bikini Kill, Kate Bush, Al Green, Salem, Trent Reznor, Tool.",1,positive
+116,"[SUBJECT] Lana Del Rey [CANDIDATE] The Crystals [CONTEXT] Del Rey cites a wide array of musical artists as influences, including Andrew Lloyd Webber, Frank Sinatra, Nina Simone, Billie Holiday, Bobby Vinton, The Crystals, Brian Wilson, Nancy Sinatra, and Miles Davis.",1,positive
+128,"[SUBJECT] Phoebe Bridgers [CANDIDATE] Tom Waits [CONTEXT] Other musical influences include Bright Eyes, the Replacements, Blake Mills, Tom Waits, Avril Lavigne, the Beatles, Jackson Browne, Taylor Swift and Nine Inch Nails.",1,positive
+3,"[SUBJECT] Radiohead [CANDIDATE] Ennio Morricone [CONTEXT] Other influences include the soundtracks of Ennio Morricone, 1960s rock groups such as the Beatles and the Beach Boys, and Phil Spector's ""wall of sound"" production.",1,positive
+78,"[SUBJECT] Joy Division [CANDIDATE] Kraftwerk [CONTEXT] Curtis was inspired by artists such as the Doors, Iggy Pop, David Bowie, Kraftwerk, the Velvet Underground and Neu!.",1,positive
+47,[SUBJECT] Kendrick Lamar [CANDIDATE] Snoop Dogg [CONTEXT] He also listened and took influence from Mos Def and Snoop Dogg during his childhood.,1,positive
+133,"[SUBJECT] Phoebe Bridgers [CANDIDATE] Nine Inch Nails [CONTEXT] Other musical influences include Bright Eyes, the Replacements, Blake Mills, Tom Waits, Avril Lavigne, the Beatles, Jackson Browne, Taylor Swift and Nine Inch Nails.",1,positive
+118,"[SUBJECT] Lana Del Rey [CANDIDATE] Nancy Sinatra [CONTEXT] Del Rey cites a wide array of musical artists as influences, including Andrew Lloyd Webber, Frank Sinatra, Nina Simone, Billie Holiday, Bobby Vinton, The Crystals, Brian Wilson, Nancy Sinatra, and Miles Davis.",1,positive
+91,"[SUBJECT] Black Sabbath [CANDIDATE] John Mayall & the Bluesbreakers [CONTEXT] Early on, Black Sabbath were influenced by Cream, the Beatles, Fleetwood Mac, Jimi Hendrix, John Mayall & the Bluesbreakers, Blue Cheer, Golden Earring, Led Zeppelin, Jethro Tull, and Iron Butterfly.",1,positive
+86,[SUBJECT] Led Zeppelin [CANDIDATE] J. R. R. Tolkien [CONTEXT] Plant's songwriting was inspired by J. R. R. Tolkien's high fantasy novel The Lord of the Rings.,1,positive
+147,"[SUBJECT] Grimes [CANDIDATE] Al Green [CONTEXT] Some of her other influences include Jedi Mind Tricks, Kenji Kawai, Yoko Kanno, Alicia Keys, Christina Aguilera, Panda Bear, Bikini Kill, Kate Bush, Al Green, Salem, Trent Reznor, Tool.",1,positive
+99,"[SUBJECT] Tyler, the Creator [CANDIDATE] Eminem [CONTEXT] The horrorcore-based aesthetics and transgressive lyrical content of his debut and second albums Bastard and Goblin were influenced by Eminem.",1,positive
+37,[SUBJECT] Björk [CANDIDATE] Brian Eno [CONTEXT] She has cited Brian Eno as one of the people who influenced her the most.,1,positive
+125,"[SUBJECT] Phoebe Bridgers [CANDIDATE] Bright Eyes [CONTEXT] Other musical influences include Bright Eyes, the Replacements, Blake Mills, Tom Waits, Avril Lavigne, the Beatles, Jackson Browne, Taylor Swift and Nine Inch Nails.",1,positive
+62,"[SUBJECT] Sonic Youth [CANDIDATE] Patti Smith [CONTEXT] Sonic Youth was heavily influenced by the Velvet Underground, the Stooges, MC5, Glenn Branca, Rhys Chatham, Ornette Coleman, John Coltrane, La Monte Young, Neil Young, Yoko Ono, Brigitte Fontaine, Patti Smith, Wire, and Public Image Ltd.",1,positive
+23,"[SUBJECT] The Beatles [CANDIDATE] Everly Brothers [CONTEXT] Other early influences include Buddy Holly, Eddie Cochran, Roy Orbison, the Everly Brothers and Jerry Lee Lewis.",1,positive
+144,"[SUBJECT] Grimes [CANDIDATE] Panda Bear [CONTEXT] Some of her other influences include Jedi Mind Tricks, Kenji Kawai, Yoko Kanno, Alicia Keys, Christina Aguilera, Panda Bear, Bikini Kill, Kate Bush, Al Green, Salem, Trent Reznor, Tool.",1,positive
+206,"[SUBJECT] Charli XCX [CANDIDATE] Crystal Castles [CONTEXT] Charli XCX's influences include Britney Spears, Shampoo, No Doubt, t.A.T.u., the Donnas, Bikini Kill, Martika, Björk, Siouxsie and the Banshees, the Feminine Complex, Donna Summer, Bread, All Saints, Uffie, Brooke Candy, Lil Wayne, Lily Allen, Kate Bush, Twin Peaks, Paris Hilton, Justice, Crystal Castles, Calvin Harris, Daft Punk, Sebastian, Honey Dijon, Robyn, Arca, M.I.A., Autechre, Aphex Twin, and Quentin Tarantino.",1,positive
+34,[SUBJECT] Björk [CANDIDATE] Stockhausen [CONTEXT] She has cited Stockhausen as one of the people who influenced her the most.,1,positive
+12,"[SUBJECT] David Bowie [CANDIDATE] Elvis Presley [CONTEXT] His early compositions and performances were strongly influenced by rock and roll singers like Little Richard and Elvis Presley, and also the wider world of show business.",1,positive
+214,"[SUBJECT] Charli XCX [CANDIDATE] Quentin Tarantino [CONTEXT] Charli XCX's influences include Britney Spears, Shampoo, No Doubt, t.A.T.u., the Donnas, Bikini Kill, Martika, Björk, Siouxsie and the Banshees, the Feminine Complex, Donna Summer, Bread, All Saints, Uffie, Brooke Candy, Lil Wayne, Lily Allen, Kate Bush, Twin Peaks, Paris Hilton, Justice, Crystal Castles, Calvin Harris, Daft Punk, Sebastian, Honey Dijon, Robyn, Arca, M.I.A., Autechre, Aphex Twin, and Quentin Tarantino.",1,positive
+174,"[SUBJECT] Billie Eilish [CANDIDATE] Lana Del Rey [CONTEXT] Eilish grew up listening to the Beatles, Justin Bieber, Green Day, the 1975, Arctic Monkeys, Nine Inch Nails, Linkin Park and Lana Del Rey.",1,positive
+7,"[SUBJECT] Radiohead [CANDIDATE] Autechre [CONTEXT] The electronic music of Kid A was inspired by Yorke's admiration for artists signed to the record label Warp Records, such as Aphex Twin and Autechre.",1,positive
+28,"[SUBJECT] Brian Eno [CANDIDATE] Steve Reich [CONTEXT] Whilst inspired by the ideas of minimalist composers including John Cage, Terry Riley, Steve Reich.",1,positive
+136,[SUBJECT] Grimes [CANDIDATE] Queen [CONTEXT] Grimes described a song as inspired by David Bowie and Queen.,1,positive
+211,"[SUBJECT] Charli XCX [CANDIDATE] Robyn [CONTEXT] Charli XCX's influences include Britney Spears, Shampoo, No Doubt, t.A.T.u., the Donnas, Bikini Kill, Martika, Björk, Siouxsie and the Banshees, the Feminine Complex, Donna Summer, Bread, All Saints, Uffie, Brooke Candy, Lil Wayne, Lily Allen, Kate Bush, Twin Peaks, Paris Hilton, Justice, Crystal Castles, Calvin Harris, Daft Punk, Sebastian, Honey Dijon, Robyn, Arca, M.I.A., Autechre, Aphex Twin, and Quentin Tarantino.",1,positive
+151,"[SUBJECT] Childish Gambino [CANDIDATE] Ghostface Killah [CONTEXT] Glover stated ""I'm influenced by LCD Soundsystem as much as Ghostface Killah.""",1,positive
+5,"[SUBJECT] Radiohead [CANDIDATE] Phil Spector [CONTEXT] Other influences include the soundtracks of Ennio Morricone, 1960s rock groups such as the Beatles and the Beach Boys, and Phil Spector's ""wall of sound"" production.",1,positive
+33,[SUBJECT] Kendrick Lamar [CANDIDATE] Parliament-Funkadelic [CONTEXT] To Pimp a Butterfly was influenced by the works of jazz trumpeter Miles Davis and funk collective Parliament-Funkadelic.,1,positive
+119,"[SUBJECT] Lana Del Rey [CANDIDATE] Miles Davis [CONTEXT] Del Rey cites a wide array of musical artists as influences, including Andrew Lloyd Webber, Frank Sinatra, Nina Simone, Billie Holiday, Bobby Vinton, The Crystals, Brian Wilson, Nancy Sinatra, and Miles Davis.",1,positive
+159,"[SUBJECT] Travis Scott [CANDIDATE] T.I. [CONTEXT] He is also influenced by Bon Iver, Kid Cudi, M.I.A., Kanye West, Toro y Moi, Tame Impala, T.I., and Thom Yorke.",1,positive
+126,"[SUBJECT] Phoebe Bridgers [CANDIDATE] the Replacements [CONTEXT] Other musical influences include Bright Eyes, the Replacements, Blake Mills, Tom Waits, Avril Lavigne, the Beatles, Jackson Browne, Taylor Swift and Nine Inch Nails.",1,positive
+197,"[SUBJECT] Charli XCX [CANDIDATE] Martika [CONTEXT] Charli XCX's influences include Britney Spears, Shampoo, No Doubt, t.A.T.u., the Donnas, Bikini Kill, Martika, Björk, Siouxsie and the Banshees, the Feminine Complex, Donna Summer, Bread, All Saints, Uffie, Brooke Candy, Lil Wayne, Lily Allen, Kate Bush, Twin Peaks, Paris Hilton, Justice, Crystal Castles, Calvin Harris, Daft Punk, Sebastian, Honey Dijon, Robyn, Arca, M.I.A., Autechre, Aphex Twin, and Quentin Tarantino.",1,positive
+115,"[SUBJECT] Lana Del Rey [CANDIDATE] Bobby Vinton [CONTEXT] Del Rey cites a wide array of musical artists as influences, including Andrew Lloyd Webber, Frank Sinatra, Nina Simone, Billie Holiday, Bobby Vinton, The Crystals, Brian Wilson, Nancy Sinatra, and Miles Davis.",1,positive
+11,"[SUBJECT] David Bowie [CANDIDATE] Little Richard [CONTEXT] His early compositions and performances were strongly influenced by rock and roll singers like Little Richard and Elvis Presley, and also the wider world of show business.",1,positive
+63,"[SUBJECT] Sonic Youth [CANDIDATE] Wire [CONTEXT] Sonic Youth was heavily influenced by the Velvet Underground, the Stooges, MC5, Glenn Branca, Rhys Chatham, Ornette Coleman, John Coltrane, La Monte Young, Neil Young, Yoko Ono, Brigitte Fontaine, Patti Smith, Wire, and Public Image Ltd.",1,positive
+129,"[SUBJECT] Phoebe Bridgers [CANDIDATE] Avril Lavigne [CONTEXT] Other musical influences include Bright Eyes, the Replacements, Blake Mills, Tom Waits, Avril Lavigne, the Beatles, Jackson Browne, Taylor Swift and Nine Inch Nails.",1,positive
+160,"[SUBJECT] Travis Scott [CANDIDATE] Thom Yorke [CONTEXT] He is also influenced by Bon Iver, Kid Cudi, M.I.A., Kanye West, Toro y Moi, Tame Impala, T.I., and Thom Yorke.",1,positive
+181,"[SUBJECT] Aphex Twin [CANDIDATE] Luke Vibert [CONTEXT] When James began programming faster, jungle-inspired breakbeats in the mid-1990s, he named friends and fellow musicians Luke Vibert and Tom Jenkinson as influences.",1,positive
+1,[SUBJECT] Radiohead [CANDIDATE] John McGeoch [CONTEXT] Jonny Greenwood named the Magazine guitarist John McGeoch his biggest guitar influence.,1,positive
+198,"[SUBJECT] Charli XCX [CANDIDATE] Björk [CONTEXT] Charli XCX's influences include Britney Spears, Shampoo, No Doubt, t.A.T.u., the Donnas, Bikini Kill, Martika, Björk, Siouxsie and the Banshees, the Feminine Complex, Donna Summer, Bread, All Saints, Uffie, Brooke Candy, Lil Wayne, Lily Allen, Kate Bush, Twin Peaks, Paris Hilton, Justice, Crystal Castles, Calvin Harris, Daft Punk, Sebastian, Honey Dijon, Robyn, Arca, M.I.A., Autechre, Aphex Twin, and Quentin Tarantino.",1,positive
+173,"[SUBJECT] Billie Eilish [CANDIDATE] Linkin Park [CONTEXT] Eilish grew up listening to the Beatles, Justin Bieber, Green Day, the 1975, Arctic Monkeys, Nine Inch Nails, Linkin Park and Lana Del Rey.",1,positive
+71,"[SUBJECT] The Smiths [CANDIDATE] the Cramps [CONTEXT] Morrissey's songwriting was influenced by punk rock and post-punk bands such as New York Dolls, the Cramps, the Specials and the Cult.",1,positive
+185,"[SUBJECT] Kraftwerk [CANDIDATE] Bauhaus [CONTEXT] They were influenced by the modernist Bauhaus aesthetic, seeing art as inseparable from everyday function.",1,positive
+65,"[SUBJECT] R.E.M. [CANDIDATE] Patti Smith [CONTEXT] The pair discovered that they shared similar tastes in music, particularly in punk rock and proto-punk artists like Patti Smith, Television, and the Velvet Underground.",1,positive
+45,[SUBJECT] Brian Eno [CANDIDATE] Piet Mondrian [CONTEXT] He was also inspired by Dutch painter Piet Mondrian.,1,positive
+143,"[SUBJECT] Grimes [CANDIDATE] Christina Aguilera [CONTEXT] Some of her other influences include Jedi Mind Tricks, Kenji Kawai, Yoko Kanno, Alicia Keys, Christina Aguilera, Panda Bear, Bikini Kill, Kate Bush, Al Green, Salem, Trent Reznor, Tool.",1,positive
+41,[SUBJECT] The Velvet Underground [CANDIDATE] John Cage [CONTEXT] Cale brought classically-trained ideas and the influence of avant-garde composers John Cage and La Monte Young.,1,positive
+124,[SUBJECT] The Weeknd [CANDIDATE] Jean-Michel Basquiat [CONTEXT] Tesfaye's hairstyle has been claimed to be partly inspired by artist Jean-Michel Basquiat.,1,positive
+24,"[SUBJECT] The Beatles [CANDIDATE] Jerry Lee Lewis [CONTEXT] Other early influences include Buddy Holly, Eddie Cochran, Roy Orbison, the Everly Brothers and Jerry Lee Lewis.",1,positive
+165,"[SUBJECT] Playboi Carti [CANDIDATE] Currensy [CONTEXT] He recorded songs influenced by Wiz Khalifa, Currensy, and Odd Future.",1,positive
+191,"[SUBJECT] Charli XCX [CANDIDATE] Britney Spears [CONTEXT] Charli XCX's influences include Britney Spears, Shampoo, No Doubt, t.A.T.u., the Donnas, Bikini Kill, Martika, Björk, Siouxsie and the Banshees, the Feminine Complex, Donna Summer, Bread, All Saints, Uffie, Brooke Candy, Lil Wayne, Lily Allen, Kate Bush, Twin Peaks, Paris Hilton, Justice, Crystal Castles, Calvin Harris, Daft Punk, Sebastian, Honey Dijon, Robyn, Arca, M.I.A., Autechre, Aphex Twin, and Quentin Tarantino.",1,positive
+82,"[SUBJECT] Joy Division [CANDIDATE] Neu! [CONTEXT] Curtis was inspired by artists such as the Doors, Iggy Pop, David Bowie, Kraftwerk, the Velvet Underground and Neu!.",1,positive
+40,"[SUBJECT] The Velvet Underground [CANDIDATE] Bo Diddley [CONTEXT] The other members were fans of doo-wop, Bo Diddley, and Booker T. & the M.G.s.",1,positive
+184,"[SUBJECT] Kraftwerk [CANDIDATE] Karlheinz Stockhausen [CONTEXT] In its early incarnation, the band pursued an avant-garde, experimental rock style inspired by the compositions of Karlheinz Stockhausen.",1,positive
+48,"[SUBJECT] The Beatles [CANDIDATE] Little Richard [CONTEXT] The Beatles' earliest influences include Elvis Presley, Carl Perkins, Little Richard, Chuck Berry and Gene Vincent.",1,positive
+95,"[SUBJECT] Black Sabbath [CANDIDATE] Jethro Tull [CONTEXT] Early on, Black Sabbath were influenced by Cream, the Beatles, Fleetwood Mac, Jimi Hendrix, John Mayall & the Bluesbreakers, Blue Cheer, Golden Earring, Led Zeppelin, Jethro Tull, and Iron Butterfly.",1,positive
+168,"[SUBJECT] Billie Eilish [CANDIDATE] Justin Bieber [CONTEXT] Eilish grew up listening to the Beatles, Justin Bieber, Green Day, the 1975, Arctic Monkeys, Nine Inch Nails, Linkin Park and Lana Del Rey.",1,positive
+44,"[SUBJECT] Bob Dylan [CANDIDATE] Jacques Levy [CONTEXT] Many of Desire's songs featuring a travelogue-like narrative style, influenced by Dylan's collaborator, playwright Jacques Levy.",1,positive
+146,"[SUBJECT] Grimes [CANDIDATE] Kate Bush [CONTEXT] Some of her other influences include Jedi Mind Tricks, Kenji Kawai, Yoko Kanno, Alicia Keys, Christina Aguilera, Panda Bear, Bikini Kill, Kate Bush, Al Green, Salem, Trent Reznor, Tool.",1,positive
+208,"[SUBJECT] Charli XCX [CANDIDATE] Daft Punk [CONTEXT] Charli XCX's influences include Britney Spears, Shampoo, No Doubt, t.A.T.u., the Donnas, Bikini Kill, Martika, Björk, Siouxsie and the Banshees, the Feminine Complex, Donna Summer, Bread, All Saints, Uffie, Brooke Candy, Lil Wayne, Lily Allen, Kate Bush, Twin Peaks, Paris Hilton, Justice, Crystal Castles, Calvin Harris, Daft Punk, Sebastian, Honey Dijon, Robyn, Arca, M.I.A., Autechre, Aphex Twin, and Quentin Tarantino.",1,positive
+4,"[SUBJECT] Radiohead [CANDIDATE] Beatles [CONTEXT] Other influences include the soundtracks of Ennio Morricone, 1960s rock groups such as the Beatles and the Beach Boys, and Phil Spector's ""wall of sound"" production.",1,positive
+106,"[SUBJECT] Billie Eilish [CANDIDATE] Britney Spears [CONTEXT] Other influences include Adele, Earl Sweatshirt, James Blake, Amy Winehouse, the Spice Girls, Lorde, Marina, Britney Spears, Taylor Swift, Nicki Minaj, XXXTentacion, and Twenty One Pilots.",1,positive
+54,"[SUBJECT] Sonic Youth [CANDIDATE] Glenn Branca [CONTEXT] Sonic Youth was heavily influenced by the Velvet Underground, the Stooges, MC5, Glenn Branca, Rhys Chatham, Ornette Coleman, John Coltrane, La Monte Young, Neil Young, Yoko Ono, Brigitte Fontaine, Patti Smith, Wire, and Public Image Ltd.",1,positive
+134,[SUBJECT] Grimes [CANDIDATE] Hildegard of Bingen [CONTEXT] The theories of her album Halfaxa were inspired by Hildegard of Bingen.,1,positive
+199,"[SUBJECT] Charli XCX [CANDIDATE] Donna Summer [CONTEXT] Charli XCX's influences include Britney Spears, Shampoo, No Doubt, t.A.T.u., the Donnas, Bikini Kill, Martika, Björk, Siouxsie and the Banshees, the Feminine Complex, Donna Summer, Bread, All Saints, Uffie, Brooke Candy, Lil Wayne, Lily Allen, Kate Bush, Twin Peaks, Paris Hilton, Justice, Crystal Castles, Calvin Harris, Daft Punk, Sebastian, Honey Dijon, Robyn, Arca, M.I.A., Autechre, Aphex Twin, and Quentin Tarantino.",1,positive
+171,"[SUBJECT] Billie Eilish [CANDIDATE] Arctic Monkeys [CONTEXT] Eilish grew up listening to the Beatles, Justin Bieber, Green Day, the 1975, Arctic Monkeys, Nine Inch Nails, Linkin Park and Lana Del Rey.",1,positive
+204,"[SUBJECT] Charli XCX [CANDIDATE] Kate Bush [CONTEXT] Charli XCX's influences include Britney Spears, Shampoo, No Doubt, t.A.T.u., the Donnas, Bikini Kill, Martika, Björk, Siouxsie and the Banshees, the Feminine Complex, Donna Summer, Bread, All Saints, Uffie, Brooke Candy, Lil Wayne, Lily Allen, Kate Bush, Twin Peaks, Paris Hilton, Justice, Crystal Castles, Calvin Harris, Daft Punk, Sebastian, Honey Dijon, Robyn, Arca, M.I.A., Autechre, Aphex Twin, and Quentin Tarantino.",1,positive
+50,[SUBJECT] Radiohead [CANDIDATE] Krzysztof Penderecki [CONTEXT] Jonny Greenwood cited the influence of the 20th-century classical composers Krzysztof Penderecki and Olivier Messiaen.,1,positive
+81,"[SUBJECT] Joy Division [CANDIDATE] Velvet Underground [CONTEXT] Curtis was inspired by artists such as the Doors, Iggy Pop, David Bowie, Kraftwerk, the Velvet Underground and Neu!.",1,positive
+35,[SUBJECT] Björk [CANDIDATE] Kraftwerk [CONTEXT] She has cited Kraftwerk as one of the people who influenced her the most.,1,positive
+8,"[SUBJECT] Radiohead [CANDIDATE] Aphex Twin [CONTEXT] In 2013, Yorke named Aphex Twin as his biggest influence.",1,positive
+111,"[SUBJECT] Lana Del Rey [CANDIDATE] Andrew Lloyd Webber [CONTEXT] Del Rey cites a wide array of musical artists as influences, including Andrew Lloyd Webber, Frank Sinatra, Nina Simone, Billie Holiday, Bobby Vinton, The Crystals, Brian Wilson, Nancy Sinatra, and Miles Davis.",1,positive
+92,"[SUBJECT] Black Sabbath [CANDIDATE] Blue Cheer [CONTEXT] Early on, Black Sabbath were influenced by Cream, the Beatles, Fleetwood Mac, Jimi Hendrix, John Mayall & the Bluesbreakers, Blue Cheer, Golden Earring, Led Zeppelin, Jethro Tull, and Iron Butterfly.",1,positive
+84,[SUBJECT] Led Zeppelin [CANDIDATE] Skip James [CONTEXT] The influence of American blues artists such as Muddy Waters and Skip James was particularly apparent on their first two albums.,1,positive
+195,"[SUBJECT] Charli XCX [CANDIDATE] the Donnas [CONTEXT] Charli XCX's influences include Britney Spears, Shampoo, No Doubt, t.A.T.u., the Donnas, Bikini Kill, Martika, Björk, Siouxsie and the Banshees, the Feminine Complex, Donna Summer, Bread, All Saints, Uffie, Brooke Candy, Lil Wayne, Lily Allen, Kate Bush, Twin Peaks, Paris Hilton, Justice, Crystal Castles, Calvin Harris, Daft Punk, Sebastian, Honey Dijon, Robyn, Arca, M.I.A., Autechre, Aphex Twin, and Quentin Tarantino.",1,positive
+200,"[SUBJECT] Charli XCX [CANDIDATE] Bread [CONTEXT] Charli XCX's influences include Britney Spears, Shampoo, No Doubt, t.A.T.u., the Donnas, Bikini Kill, Martika, Björk, Siouxsie and the Banshees, the Feminine Complex, Donna Summer, Bread, All Saints, Uffie, Brooke Candy, Lil Wayne, Lily Allen, Kate Bush, Twin Peaks, Paris Hilton, Justice, Crystal Castles, Calvin Harris, Daft Punk, Sebastian, Honey Dijon, Robyn, Arca, M.I.A., Autechre, Aphex Twin, and Quentin Tarantino.",1,positive
+90,"[SUBJECT] Black Sabbath [CANDIDATE] Jimi Hendrix [CONTEXT] Early on, Black Sabbath were influenced by Cream, the Beatles, Fleetwood Mac, Jimi Hendrix, John Mayall & the Bluesbreakers, Blue Cheer, Golden Earring, Led Zeppelin, Jethro Tull, and Iron Butterfly.",1,positive
+9,[SUBJECT] Radiohead [CANDIDATE] Krzysztof Penderecki [CONTEXT] Jonny Greenwood cited the influence of the 20th-century classical composers Krzysztof Penderecki and Olivier Messiaen.,1,positive
+14,"[SUBJECT] The Beatles [CANDIDATE] Yoko Ono [CONTEXT] Lennon's ""Revolution 9"" (whose musique concrète approach was influenced by Yoko Ono).",1,positive
+60,"[SUBJECT] Sonic Youth [CANDIDATE] Yoko Ono [CONTEXT] Sonic Youth was heavily influenced by the Velvet Underground, the Stooges, MC5, Glenn Branca, Rhys Chatham, Ornette Coleman, John Coltrane, La Monte Young, Neil Young, Yoko Ono, Brigitte Fontaine, Patti Smith, Wire, and Public Image Ltd.",1,positive
+193,"[SUBJECT] Charli XCX [CANDIDATE] No Doubt [CONTEXT] Charli XCX's influences include Britney Spears, Shampoo, No Doubt, t.A.T.u., the Donnas, Bikini Kill, Martika, Björk, Siouxsie and the Banshees, the Feminine Complex, Donna Summer, Bread, All Saints, Uffie, Brooke Candy, Lil Wayne, Lily Allen, Kate Bush, Twin Peaks, Paris Hilton, Justice, Crystal Castles, Calvin Harris, Daft Punk, Sebastian, Honey Dijon, Robyn, Arca, M.I.A., Autechre, Aphex Twin, and Quentin Tarantino.",1,positive
+132,"[SUBJECT] Phoebe Bridgers [CANDIDATE] Taylor Swift [CONTEXT] Other musical influences include Bright Eyes, the Replacements, Blake Mills, Tom Waits, Avril Lavigne, the Beatles, Jackson Browne, Taylor Swift and Nine Inch Nails.",1,positive
+18,"[SUBJECT] The Beatles [CANDIDATE] Chuck Berry [CONTEXT] The Beatles' earliest influences include Elvis Presley, Carl Perkins, Little Richard, Chuck Berry and Gene Vincent.",1,positive
+167,"[SUBJECT] Billie Eilish [CANDIDATE] Beatles [CONTEXT] Eilish grew up listening to the Beatles, Justin Bieber, Green Day, the 1975, Arctic Monkeys, Nine Inch Nails, Linkin Park and Lana Del Rey.",1,positive
+73,"[SUBJECT] The Smiths [CANDIDATE] Dusty Springfield [CONTEXT] Morrissey's songwriting was influenced by 1960s girl groups and singers such as Dusty Springfield, Sandie Shaw, Marianne Faithfull and Timi Yuro.",1,positive
+194,"[SUBJECT] Charli XCX [CANDIDATE] t.A.T.u. [CONTEXT] Charli XCX's influences include Britney Spears, Shampoo, No Doubt, t.A.T.u., the Donnas, Bikini Kill, Martika, Björk, Siouxsie and the Banshees, the Feminine Complex, Donna Summer, Bread, All Saints, Uffie, Brooke Candy, Lil Wayne, Lily Allen, Kate Bush, Twin Peaks, Paris Hilton, Justice, Crystal Castles, Calvin Harris, Daft Punk, Sebastian, Honey Dijon, Robyn, Arca, M.I.A., Autechre, Aphex Twin, and Quentin Tarantino.",1,positive
+135,[SUBJECT] Grimes [CANDIDATE] David Bowie [CONTEXT] Grimes described a song as inspired by David Bowie.,1,positive
+182,"[SUBJECT] Aphex Twin [CANDIDATE] Tom Jenkinson [CONTEXT] When James began programming faster, jungle-inspired breakbeats in the mid-1990s, he named friends and fellow musicians Luke Vibert and Tom Jenkinson as influences.",1,positive
+202,"[SUBJECT] Charli XCX [CANDIDATE] Lil Wayne [CONTEXT] Charli XCX's influences include Britney Spears, Shampoo, No Doubt, t.A.T.u., the Donnas, Bikini Kill, Martika, Björk, Siouxsie and the Banshees, the Feminine Complex, Donna Summer, Bread, All Saints, Uffie, Brooke Candy, Lil Wayne, Lily Allen, Kate Bush, Twin Peaks, Paris Hilton, Justice, Crystal Castles, Calvin Harris, Daft Punk, Sebastian, Honey Dijon, Robyn, Arca, M.I.A., Autechre, Aphex Twin, and Quentin Tarantino.",1,positive
+64,"[SUBJECT] Sonic Youth [CANDIDATE] Public Image Ltd [CONTEXT] Sonic Youth was heavily influenced by the Velvet Underground, the Stooges, MC5, Glenn Branca, Rhys Chatham, Ornette Coleman, John Coltrane, La Monte Young, Neil Young, Yoko Ono, Brigitte Fontaine, Patti Smith, Wire, and Public Image Ltd.",1,positive
+55,"[SUBJECT] Sonic Youth [CANDIDATE] Rhys Chatham [CONTEXT] Sonic Youth was heavily influenced by the Velvet Underground, the Stooges, MC5, Glenn Branca, Rhys Chatham, Ornette Coleman, John Coltrane, La Monte Young, Neil Young, Yoko Ono, Brigitte Fontaine, Patti Smith, Wire, and Public Image Ltd.",1,positive
+108,"[SUBJECT] Billie Eilish [CANDIDATE] Nicki Minaj [CONTEXT] Other influences include Adele, Earl Sweatshirt, James Blake, Amy Winehouse, the Spice Girls, Lorde, Marina, Britney Spears, Taylor Swift, Nicki Minaj, XXXTentacion, and Twenty One Pilots.",1,positive
+51,"[SUBJECT] Sonic Youth [CANDIDATE] Velvet Underground [CONTEXT] Sonic Youth was heavily influenced by the Velvet Underground, the Stooges, MC5, Glenn Branca, Rhys Chatham, Ornette Coleman, John Coltrane, La Monte Young, Neil Young, Yoko Ono, Brigitte Fontaine, Patti Smith, Wire, and Public Image Ltd.",1,positive
+175,"[SUBJECT] John Coltrane [CANDIDATE] Lester Young [CONTEXT] While in high school, Coltrane played clarinet and alto horn in a community band before switching to the saxophone, after being influenced by the likes of Lester Young and Johnny Hodges.",1,positive
+216,"[SUBJECT] SZA [CANDIDATE] GZA [CONTEXT] She took cues from the Supreme Alphabet, taking influence from rappers RZA and GZA of Wu-Tang Clan.",1,positive
+170,"[SUBJECT] Billie Eilish [CANDIDATE] the 1975 [CONTEXT] Eilish grew up listening to the Beatles, Justin Bieber, Green Day, the 1975, Arctic Monkeys, Nine Inch Nails, Linkin Park and Lana Del Rey.",1,positive
+59,"[SUBJECT] Sonic Youth [CANDIDATE] Neil Young [CONTEXT] Sonic Youth was heavily influenced by the Velvet Underground, the Stooges, MC5, Glenn Branca, Rhys Chatham, Ornette Coleman, John Coltrane, La Monte Young, Neil Young, Yoko Ono, Brigitte Fontaine, Patti Smith, Wire, and Public Image Ltd.",1,positive
+49,"[SUBJECT] The Velvet Underground [CANDIDATE] Booker T. & the M.G.s [CONTEXT] The other members were fans of doo-wop, Bo Diddley, and Booker T. & the M.G.s.",1,positive
+89,"[SUBJECT] Black Sabbath [CANDIDATE] Fleetwood Mac [CONTEXT] Early on, Black Sabbath were influenced by Cream, the Beatles, Fleetwood Mac, Jimi Hendrix, John Mayall & the Bluesbreakers, Blue Cheer, Golden Earring, Led Zeppelin, Jethro Tull, and Iron Butterfly.",1,positive
+22,"[SUBJECT] The Beatles [CANDIDATE] Roy Orbison [CONTEXT] Other early influences include Buddy Holly, Eddie Cochran, Roy Orbison, the Everly Brothers and Jerry Lee Lewis.",1,positive
+58,"[SUBJECT] Sonic Youth [CANDIDATE] La Monte Young [CONTEXT] Sonic Youth was heavily influenced by the Velvet Underground, the Stooges, MC5, Glenn Branca, Rhys Chatham, Ornette Coleman, John Coltrane, La Monte Young, Neil Young, Yoko Ono, Brigitte Fontaine, Patti Smith, Wire, and Public Image Ltd.",1,positive
+161,[SUBJECT] Travis Scott [CANDIDATE] Mike Dean [CONTEXT] Scott's production style is predominantly influenced by producers Mike Dean and Alex Tumay.,1,positive
+212,"[SUBJECT] Charli XCX [CANDIDATE] Autechre [CONTEXT] Charli XCX's influences include Britney Spears, Shampoo, No Doubt, t.A.T.u., the Donnas, Bikini Kill, Martika, Björk, Siouxsie and the Banshees, the Feminine Complex, Donna Summer, Bread, All Saints, Uffie, Brooke Candy, Lil Wayne, Lily Allen, Kate Bush, Twin Peaks, Paris Hilton, Justice, Crystal Castles, Calvin Harris, Daft Punk, Sebastian, Honey Dijon, Robyn, Arca, M.I.A., Autechre, Aphex Twin, and Quentin Tarantino.",1,positive
+188,"[SUBJECT] Lorde [CANDIDATE] Sam Cooke [CONTEXT] Lorde grew up listening to American jazz and soul musicians Billie Holiday, Sam Cooke, Etta James, and Otis Redding.",1,positive
+192,"[SUBJECT] Charli XCX [CANDIDATE] Shampoo [CONTEXT] Charli XCX's influences include Britney Spears, Shampoo, No Doubt, t.A.T.u., the Donnas, Bikini Kill, Martika, Björk, Siouxsie and the Banshees, the Feminine Complex, Donna Summer, Bread, All Saints, Uffie, Brooke Candy, Lil Wayne, Lily Allen, Kate Bush, Twin Peaks, Paris Hilton, Justice, Crystal Castles, Calvin Harris, Daft Punk, Sebastian, Honey Dijon, Robyn, Arca, M.I.A., Autechre, Aphex Twin, and Quentin Tarantino.",1,positive
+130,"[SUBJECT] Phoebe Bridgers [CANDIDATE] the Beatles [CONTEXT] Other musical influences include Bright Eyes, the Replacements, Blake Mills, Tom Waits, Avril Lavigne, the Beatles, Jackson Browne, Taylor Swift and Nine Inch Nails.",1,positive
+38,[SUBJECT] Björk [CANDIDATE] Mark Bell [CONTEXT] She has cited Mark Bell as one of the people who influenced her the most.,1,positive
+158,"[SUBJECT] Travis Scott [CANDIDATE] Tame Impala [CONTEXT] He is also influenced by Bon Iver, Kid Cudi, M.I.A., Kanye West, Toro y Moi, Tame Impala, T.I., and Thom Yorke.",1,positive
+207,"[SUBJECT] Charli XCX [CANDIDATE] Calvin Harris [CONTEXT] Charli XCX's influences include Britney Spears, Shampoo, No Doubt, t.A.T.u., the Donnas, Bikini Kill, Martika, Björk, Siouxsie and the Banshees, the Feminine Complex, Donna Summer, Bread, All Saints, Uffie, Brooke Candy, Lil Wayne, Lily Allen, Kate Bush, Twin Peaks, Paris Hilton, Justice, Crystal Castles, Calvin Harris, Daft Punk, Sebastian, Honey Dijon, Robyn, Arca, M.I.A., Autechre, Aphex Twin, and Quentin Tarantino.",1,positive
+2,"[SUBJECT] Radiohead [CANDIDATE] DJ Shadow [CONTEXT] By the mid-1990s, Radiohead were adopting recording methods from hip-hop, inspired by the sampling work of DJ Shadow, and became interested in using computers to generate sounds.",1,positive
+53,"[SUBJECT] Sonic Youth [CANDIDATE] MC5 [CONTEXT] Sonic Youth was heavily influenced by the Velvet Underground, the Stooges, MC5, Glenn Branca, Rhys Chatham, Ornette Coleman, John Coltrane, La Monte Young, Neil Young, Yoko Ono, Brigitte Fontaine, Patti Smith, Wire, and Public Image Ltd.",1,positive
+150,"[SUBJECT] Grimes [CANDIDATE] Tool [CONTEXT] Some of her other influences include Jedi Mind Tricks, Kenji Kawai, Yoko Kanno, Alicia Keys, Christina Aguilera, Panda Bear, Bikini Kill, Kate Bush, Al Green, Salem, Trent Reznor, Tool.",1,positive
+131,"[SUBJECT] Phoebe Bridgers [CANDIDATE] Jackson Browne [CONTEXT] Other musical influences include Bright Eyes, the Replacements, Blake Mills, Tom Waits, Avril Lavigne, the Beatles, Jackson Browne, Taylor Swift and Nine Inch Nails.",1,positive
+152,"[SUBJECT] Childish Gambino [CANDIDATE] LCD Soundsystem [CONTEXT] Glover stated ""I'm influenced by LCD Soundsystem as much as Ghostface Killah.""",1,positive
+104,"[SUBJECT] Billie Eilish [CANDIDATE] Lorde [CONTEXT] Other influences include Adele, Earl Sweatshirt, James Blake, Amy Winehouse, the Spice Girls, Lorde, Marina, Britney Spears, Taylor Swift, Nicki Minaj, XXXTentacion, and Twenty One Pilots.",1,positive
+100,"[SUBJECT] Billie Eilish [CANDIDATE] Adele [CONTEXT] Other influences include Adele, Earl Sweatshirt, James Blake, Amy Winehouse, the Spice Girls, Lorde, Marina, Britney Spears, Taylor Swift, Nicki Minaj, XXXTentacion, and Twenty One Pilots.",1,positive
+117,"[SUBJECT] Lana Del Rey [CANDIDATE] Brian Wilson [CONTEXT] Del Rey cites a wide array of musical artists as influences, including Andrew Lloyd Webber, Frank Sinatra, Nina Simone, Billie Holiday, Bobby Vinton, The Crystals, Brian Wilson, Nancy Sinatra, and Miles Davis.",1,positive
+88,"[SUBJECT] Black Sabbath [CANDIDATE] the Beatles [CONTEXT] Early on, Black Sabbath were influenced by Cream, the Beatles, Fleetwood Mac, Jimi Hendrix, John Mayall & the Bluesbreakers, Blue Cheer, Golden Earring, Led Zeppelin, Jethro Tull, and Iron Butterfly.",1,positive
+203,"[SUBJECT] Charli XCX [CANDIDATE] Lily Allen [CONTEXT] Charli XCX's influences include Britney Spears, Shampoo, No Doubt, t.A.T.u., the Donnas, Bikini Kill, Martika, Björk, Siouxsie and the Banshees, the Feminine Complex, Donna Summer, Bread, All Saints, Uffie, Brooke Candy, Lil Wayne, Lily Allen, Kate Bush, Twin Peaks, Paris Hilton, Justice, Crystal Castles, Calvin Harris, Daft Punk, Sebastian, Honey Dijon, Robyn, Arca, M.I.A., Autechre, Aphex Twin, and Quentin Tarantino.",1,positive
+75,"[SUBJECT] The Smiths [CANDIDATE] Marianne Faithfull [CONTEXT] Morrissey's songwriting was influenced by 1960s girl groups and singers such as Dusty Springfield, Sandie Shaw, Marianne Faithfull and Timi Yuro.",1,positive
+122,[SUBJECT] The Weeknd [CANDIDATE] Aster Aweke [CONTEXT] His high-flying vocal style was influenced by Ethiopian singers such as Aster Aweke.,1,positive
+219,"[SUBJECT] The Roots [CANDIDATE] Wu-Tang Clan [CONTEXT] The band's sound would take a darker turn during this period, heavily influenced by the Wu-Tang Clan and the RZA's grimy and haunting production style, replete with samples from old jazz and classical music.",1,positive
+21,"[SUBJECT] The Beatles [CANDIDATE] Eddie Cochran [CONTEXT] Other early influences include Buddy Holly, Eddie Cochran, Roy Orbison, the Everly Brothers and Jerry Lee Lewis.",1,positive
+189,"[SUBJECT] Lorde [CANDIDATE] Etta James [CONTEXT] Lorde grew up listening to American jazz and soul musicians Billie Holiday, Sam Cooke, Etta James, and Otis Redding.",1,positive
+72,"[SUBJECT] The Smiths [CANDIDATE] the Cult [CONTEXT] Morrissey's songwriting was influenced by punk rock and post-punk bands such as New York Dolls, the Cramps, the Specials and the Cult.",1,positive
+107,"[SUBJECT] Billie Eilish [CANDIDATE] Taylor Swift [CONTEXT] Other influences include Adele, Earl Sweatshirt, James Blake, Amy Winehouse, the Spice Girls, Lorde, Marina, Britney Spears, Taylor Swift, Nicki Minaj, XXXTentacion, and Twenty One Pilots.",1,positive
+15,"[SUBJECT] The Beatles [CANDIDATE] Elvis Presley [CONTEXT] The Beatles' earliest influences include Elvis Presley, Carl Perkins, Little Richard, Chuck Berry and Gene Vincent.",1,positive
+93,"[SUBJECT] Black Sabbath [CANDIDATE] Golden Earring [CONTEXT] Early on, Black Sabbath were influenced by Cream, the Beatles, Fleetwood Mac, Jimi Hendrix, John Mayall & the Bluesbreakers, Blue Cheer, Golden Earring, Led Zeppelin, Jethro Tull, and Iron Butterfly.",1,positive
+180,"[SUBJECT] Herbie Hancock [CANDIDATE] Gil Evans [CONTEXT] Clare Fischer was a major influence on my harmonic concept... he and Bill Evans, and Ravel and Gil Evans, finally.",1,positive
+103,"[SUBJECT] Billie Eilish [CANDIDATE] Amy Winehouse [CONTEXT] Other influences include Adele, Earl Sweatshirt, James Blake, Amy Winehouse, the Spice Girls, Lorde, Marina, Britney Spears, Taylor Swift, Nicki Minaj, XXXTentacion, and Twenty One Pilots.",1,positive
+266,[SUBJECT] The Smiths [CANDIDATE] Arctic Monkeys [CONTEXT] Arctic Monkeys cited the Smiths as an influence.,0,reverse_direction
+305,[SUBJECT] The Velvet Underground [CANDIDATE] David Bowie [CONTEXT] David Bowie was influenced by the experimental work of the Velvet Underground.,0,reverse_direction
+372,[SUBJECT] Aretha Franklin [CANDIDATE] Adele [CONTEXT] Adele has frequently cited Aretha Franklin as a primary inspiration for her vocal delivery and soul-baring songwriting.,0,reverse_direction
+302,[SUBJECT] Joy Division [CANDIDATE] The Cure [CONTEXT] The Cure were influenced by the bleak atmosphere of Joy Division.,0,reverse_direction
+367,[SUBJECT] Metallica [CANDIDATE] Slipknot [CONTEXT] Members of Slipknot have cited Metallica as an influence.,0,reverse_direction
+246,[SUBJECT] Kanye West [CANDIDATE] Kid Cudi [CONTEXT] Kid Cudi collaborated with and was influenced by Kanye West.,0,reverse_direction
+375,[SUBJECT] Billie Holiday [CANDIDATE] Erykah Badu [CONTEXT] Erykah Badu’s phrasing and jazz-inflected vocals are deeply rooted in the influence of Billie Holiday.,0,reverse_direction
+318,[SUBJECT] James Brown [CANDIDATE] Michael Jackson [CONTEXT] Michael Jackson drew inspiration from James Brown.,0,reverse_direction
+331,[SUBJECT] Marvin Gaye [CANDIDATE] The Weeknd [CONTEXT] The Weeknd has acknowledged Marvin Gaye as an influence.,0,reverse_direction
+296,[SUBJECT] The Clash [CANDIDATE] Green Day [CONTEXT] Green Day were influenced by the political punk sound of the Clash.,0,reverse_direction
+256,[SUBJECT] Prince [CANDIDATE] The Weeknd [CONTEXT] The Weeknd has cited Prince as a major artistic influence.,0,reverse_direction
+384,"[SUBJECT] Aphex Twin [CANDIDATE] Arca [CONTEXT] Arca has pointed to the glitchy, experimental textures of Aphex Twin as a key influence on her electronic production.",0,reverse_direction
+242,[SUBJECT] Bob Dylan [CANDIDATE] Joni Mitchell [CONTEXT] Joni Mitchell acknowledged Bob Dylan's influence on her early work.,0,reverse_direction
+324,[SUBJECT] Neil Young [CANDIDATE] Radiohead [CONTEXT] Radiohead cited Neil Young as an influence on their guitar work.,0,reverse_direction
+295,[SUBJECT] Run-D.M.C. [CANDIDATE] Jay-Z [CONTEXT] Jay-Z has cited Run-D.M.C. as an early influence.,0,reverse_direction
+366,[SUBJECT] Metallica [CANDIDATE] Trivium [CONTEXT] Trivium were influenced by the work of Metallica.,0,reverse_direction
+231,[SUBJECT] Kraftwerk [CANDIDATE] Depeche Mode [CONTEXT] Depeche Mode were influenced by the pioneering electronic work of Kraftwerk.,0,reverse_direction
+226,[SUBJECT] A Tribe Called Quest [CANDIDATE] Dr. Dre [CONTEXT] Dr. Dre has cited A Tribe Called Quest as an influence on his production style.,0,reverse_direction
+247,[SUBJECT] Björk [CANDIDATE] Grimes [CONTEXT] Grimes has cited Björk as one of her primary influences.,0,reverse_direction
+332,[SUBJECT] Stevie Wonder [CANDIDATE] Prince [CONTEXT] Prince cited Stevie Wonder as an early musical influence.,0,reverse_direction
+224,"[SUBJECT] Led Zeppelin [CANDIDATE] Lady Gaga [CONTEXT] Artists across genres, including Lady Gaga, have acknowledged the influence of Led Zeppelin.",0,reverse_direction
+252,[SUBJECT] The Velvet Underground [CANDIDATE] R.E.M. [CONTEXT] R.E.M. cited the Velvet Underground as a foundational influence.,0,reverse_direction
+321,[SUBJECT] Elvis Presley [CANDIDATE] Bruce Springsteen [CONTEXT] Bruce Springsteen was influenced by the music of Elvis Presley.,0,reverse_direction
+348,[SUBJECT] Radiohead [CANDIDATE] Bon Iver [CONTEXT] Bon Iver were influenced by Radiohead’s experimental approach.,0,reverse_direction
+315,[SUBJECT] John Coltrane [CANDIDATE] Pharoah Sanders [CONTEXT] Pharoah Sanders was influenced by John Coltrane’s spiritual jazz.,0,reverse_direction
+230,[SUBJECT] Kraftwerk [CANDIDATE] Daft Punk [CONTEXT] Daft Punk have repeatedly acknowledged Kraftwerk as a primary influence.,0,reverse_direction
+334,[SUBJECT] Stevie Wonder [CANDIDATE] Alicia Keys [CONTEXT] Alicia Keys has frequently cited Stevie Wonder as an influence.,0,reverse_direction
+353,[SUBJECT] Nas [CANDIDATE] Joey Bada$$ [CONTEXT] Joey Bada$$ has cited Nas as a primary influence.,0,reverse_direction
+220,"[SUBJECT] Pink Floyd [CANDIDATE] Radiohead [CONTEXT] Artists influenced by Pink Floyd include Radiohead, Queen, and Nine Inch Nails.",0,reverse_direction
+356,[SUBJECT] Jay-Z [CANDIDATE] J. Cole [CONTEXT] J. Cole has cited Jay-Z as an influence.,0,reverse_direction
+290,[SUBJECT] Public Enemy [CANDIDATE] Rage Against the Machine [CONTEXT] Rage Against the Machine were influenced by the political intensity of Public Enemy.,0,reverse_direction
+284,[SUBJECT] Jimi Hendrix [CANDIDATE] Stevie Ray Vaughan [CONTEXT] Stevie Ray Vaughan was deeply influenced by the guitar work of Jimi Hendrix.,0,reverse_direction
+264,[SUBJECT] Nas [CANDIDATE] Logic [CONTEXT] Logic cited Nas as an influence on his storytelling.,0,reverse_direction
+343,[SUBJECT] Kate Bush [CANDIDATE] St. Vincent [CONTEXT] St. Vincent has acknowledged the influence of Kate Bush.,0,reverse_direction
+248,[SUBJECT] Björk [CANDIDATE] FKA twigs [CONTEXT] FKA twigs has been influenced by the experimental work of Björk.,0,reverse_direction
+260,[SUBJECT] Madonna [CANDIDATE] Britney Spears [CONTEXT] Britney Spears was influenced by Madonna's pop persona.,0,reverse_direction
+358,[SUBJECT] Jay-Z [CANDIDATE] Big Sean [CONTEXT] Big Sean cited Jay-Z as an inspiration.,0,reverse_direction
+359,[SUBJECT] OutKast [CANDIDATE] Kendrick Lamar [CONTEXT] Kendrick Lamar has cited OutKast as an influence.,0,reverse_direction
+245,[SUBJECT] Kanye West [CANDIDATE] Travis Scott [CONTEXT] Travis Scott has cited Kanye West as a key influence.,0,reverse_direction
+243,[SUBJECT] Nirvana [CANDIDATE] Foo Fighters [CONTEXT] Foo Fighters developed out of the musical legacy of Nirvana.,0,reverse_direction
+364,[SUBJECT] Daft Punk [CANDIDATE] Calvin Harris [CONTEXT] Calvin Harris acknowledged the influence of Daft Punk.,0,reverse_direction
+301,[SUBJECT] Kraftwerk [CANDIDATE] OMD [CONTEXT] Orchestral Manoeuvres in the Dark cited Kraftwerk as an influence.,0,reverse_direction
+299,[SUBJECT] Kraftwerk [CANDIDATE] Gary Numan [CONTEXT] Gary Numan was heavily influenced by Kraftwerk’s electronic minimalism.,0,reverse_direction
+304,[SUBJECT] Joy Division [CANDIDATE] The National [CONTEXT] The National’s early work shows the influence of Joy Division.,0,reverse_direction
+259,[SUBJECT] Madonna [CANDIDATE] Lady Gaga [CONTEXT] Lady Gaga acknowledged Madonna as a key influence early in her career.,0,reverse_direction
+328,[SUBJECT] The Beach Boys [CANDIDATE] Panda Bear [CONTEXT] Panda Bear has frequently cited the Beach Boys as a formative influence.,0,reverse_direction
+306,[SUBJECT] The Velvet Underground [CANDIDATE] Sonic Youth [CONTEXT] Sonic Youth cited the Velvet Underground as a primary influence.,0,reverse_direction
+347,[SUBJECT] Radiohead [CANDIDATE] James Blake [CONTEXT] James Blake has cited Radiohead as an influence.,0,reverse_direction
+395,[SUBJECT] Dolly Parton [CANDIDATE] Miley Cyrus [CONTEXT] Miley Cyrus has often spoken about her godmother Dolly Parton’s profound influence on her musical career and performance.,0,reverse_direction
+386,[SUBJECT] Scott Walker [CANDIDATE] Arctic Monkeys [CONTEXT] Alex Turner cited the dramatic arrangements of Scott Walker as a major influence during the recording of 'Tranquility Base Hotel & Casino'.,0,reverse_direction
+267,[SUBJECT] Joy Division [CANDIDATE] Interpol [CONTEXT] Interpol's sound has been influenced by Joy Division.,0,reverse_direction
+314,[SUBJECT] John Coltrane [CANDIDATE] Alice Coltrane [CONTEXT] Alice Coltrane developed her style under the influence of John Coltrane.,0,reverse_direction
+357,[SUBJECT] Jay-Z [CANDIDATE] Drake [CONTEXT] Drake has acknowledged Jay-Z as a major influence.,0,reverse_direction
+388,"[SUBJECT] The Stooges [CANDIDATE] Sex Pistols [CONTEXT] The aggressive, stripped-back sound of the Sex Pistols was largely built on the foundation laid by The Stooges.",0,reverse_direction
+281,[SUBJECT] Black Sabbath [CANDIDATE] Metallica [CONTEXT] Metallica have cited Black Sabbath as a foundational influence on heavy metal.,0,reverse_direction
+293,[SUBJECT] Run-D.M.C. [CANDIDATE] Beastie Boys [CONTEXT] The Beastie Boys emerged under the influence of Run-D.M.C.,0,reverse_direction
+253,[SUBJECT] Talking Heads [CANDIDATE] Radiohead [CONTEXT] Radiohead have cited Talking Heads as an influence on their approach to rhythm and texture.,0,reverse_direction
+263,[SUBJECT] Nas [CANDIDATE] Kendrick Lamar [CONTEXT] Kendrick Lamar has acknowledged Nas as a lyrical influence.,0,reverse_direction
+355,[SUBJECT] Nas [CANDIDATE] Pusha T [CONTEXT] Pusha T has cited Nas as an influence.,0,reverse_direction
+361,"[SUBJECT] OutKast [CANDIDATE] Tyler, the Creator [CONTEXT] Tyler, the Creator has acknowledged OutKast’s influence.",0,reverse_direction
+282,"[SUBJECT] Black Sabbath [CANDIDATE] Soundgarden [CONTEXT] Soundgarden were influenced by the dark, heavy sound pioneered by Black Sabbath.",0,reverse_direction
+398,"[SUBJECT] Black Sabbath [CANDIDATE] Pantera [CONTEXT] Pantera’s shift to a heavier, groove-oriented sound was deeply influenced by the riff-driven legacy of Black Sabbath.",0,reverse_direction
+339,[SUBJECT] The Cure [CANDIDATE] The Smashing Pumpkins [CONTEXT] The Smashing Pumpkins cited the Cure as an influence on their early sound.,0,reverse_direction
+342,[SUBJECT] Kate Bush [CANDIDATE] Florence Welch [CONTEXT] Florence Welch cited Kate Bush as a major artistic influence.,0,reverse_direction
+325,[SUBJECT] Neil Young [CANDIDATE] Wilco [CONTEXT] Wilco drew inspiration from Neil Young’s approach to songwriting.,0,reverse_direction
+273,[SUBJECT] Brian Eno [CANDIDATE] James Blake [CONTEXT] James Blake has cited Brian Eno as an influence.,0,reverse_direction
+225,[SUBJECT] Led Zeppelin [CANDIDATE] Madonna [CONTEXT] Madonna has named Led Zeppelin as one of her influences.,0,reverse_direction
+382,[SUBJECT] Joni Mitchell [CANDIDATE] Taylor Swift [CONTEXT] Taylor Swift’s autobiographical approach to songwriting was significantly influenced by the work of Joni Mitchell.,0,reverse_direction
+223,[SUBJECT] Joy Division [CANDIDATE] Mogwai [CONTEXT] Mogwai have cited Joy Division as a key influence on their sound.,0,reverse_direction
+387,[SUBJECT] Kate Bush [CANDIDATE] Lorde [CONTEXT] Lorde has frequently praised Kate Bush's experimental pop production and vocal arrangements as a source of inspiration.,0,reverse_direction
+269,[SUBJECT] Cocteau Twins [CANDIDATE] Slowdive [CONTEXT] Slowdive were influenced by the ethereal sound of Cocteau Twins.,0,reverse_direction
+255,[SUBJECT] Prince [CANDIDATE] D'Angelo [CONTEXT] D'Angelo has acknowledged Prince as a central influence on his music.,0,reverse_direction
+300,[SUBJECT] Kraftwerk [CANDIDATE] Human League [CONTEXT] The Human League adopted synth-pop aesthetics pioneered by Kraftwerk.,0,reverse_direction
+297,[SUBJECT] The Clash [CANDIDATE] Rancid [CONTEXT] Rancid drew heavily from the Clash’s fusion of punk and reggae.,0,reverse_direction
+254,[SUBJECT] Talking Heads [CANDIDATE] LCD Soundsystem [CONTEXT] LCD Soundsystem drew heavy inspiration from Talking Heads.,0,reverse_direction
+227,[SUBJECT] A Tribe Called Quest [CANDIDATE] Questlove [CONTEXT] Questlove has frequently cited A Tribe Called Quest as his favorite group.,0,reverse_direction
+330,[SUBJECT] Marvin Gaye [CANDIDATE] Frank Ocean [CONTEXT] Frank Ocean has spoken about the influence of Marvin Gaye on his approach to soul music.,0,reverse_direction
+311,[SUBJECT] Miles Davis [CANDIDATE] Radiohead [CONTEXT] Radiohead drew inspiration from the electric period of Miles Davis.,0,reverse_direction
+303,[SUBJECT] Joy Division [CANDIDATE] Nine Inch Nails [CONTEXT] Trent Reznor has cited Joy Division as an influence.,0,reverse_direction
+378,[SUBJECT] Patti Smith [CANDIDATE] PJ Harvey [CONTEXT] PJ Harvey’s early work reflects the avant-garde spirit and lyrical intensity pioneered by Patti Smith.,0,reverse_direction
+383,[SUBJECT] Pixies [CANDIDATE] Nirvana [CONTEXT] Kurt Cobain famously admitted that 'Smells Like Teen Spirit' was an attempt to write a song in the style of the Pixies.,0,reverse_direction
+309,[SUBJECT] Can [CANDIDATE] Talking Heads [CONTEXT] Talking Heads drew inspiration from Can’s rhythmic experimentation.,0,reverse_direction
+228,[SUBJECT] Sonic Youth [CANDIDATE] Nirvana [CONTEXT] Nirvana were heavily influenced by Sonic Youth.,0,reverse_direction
+233,[SUBJECT] Brian Eno [CANDIDATE] Coldplay [CONTEXT] Coldplay have cited Brian Eno as an influence on their atmospheric sound.,0,reverse_direction
+279,[SUBJECT] The Rolling Stones [CANDIDATE] Oasis [CONTEXT] Oasis drew heavily from the swagger and songwriting style of the Rolling Stones.,0,reverse_direction
+374,"[SUBJECT] The Ramones [CANDIDATE] Green Day [CONTEXT] The fast-paced, melodic punk style of Green Day owes a significant debt to the pioneering sound of The Ramones.",0,reverse_direction
+351,[SUBJECT] Aphex Twin [CANDIDATE] SOPHIE [CONTEXT] SOPHIE drew inspiration from the experimental electronic work of Aphex Twin.,0,reverse_direction
+237,[SUBJECT] The Beatles [CANDIDATE] Oasis [CONTEXT] Oasis frequently cited the Beatles as their primary influence.,0,reverse_direction
+292,[SUBJECT] Public Enemy [CANDIDATE] Run the Jewels [CONTEXT] Run the Jewels drew inspiration from the confrontational style of Public Enemy.,0,reverse_direction
+380,[SUBJECT] Iron Maiden [CANDIDATE] Ghost [CONTEXT] Tobias Forge of Ghost has frequently mentioned Iron Maiden as a major influence on the band's theatricality and melodic metal structures.,0,reverse_direction
+354,[SUBJECT] Nas [CANDIDATE] Freddie Gibbs [CONTEXT] Freddie Gibbs acknowledged Nas’ influence on his lyricism.,0,reverse_direction
+370,[SUBJECT] Black Sabbath [CANDIDATE] Mastodon [CONTEXT] Mastodon have cited Black Sabbath as a foundational influence.,0,reverse_direction
+385,[SUBJECT] Burial [CANDIDATE] James Blake [CONTEXT] The atmospheric dubstep and vocal manipulations of James Blake draw heavily from the sonic world created by Burial.,0,reverse_direction
+283,[SUBJECT] Black Sabbath [CANDIDATE] Electric Wizard [CONTEXT] Electric Wizard built their sound on the influence of Black Sabbath.,0,reverse_direction
+274,[SUBJECT] Brian Eno [CANDIDATE] Oneohtrix Point Never [CONTEXT] Oneohtrix Point Never was influenced by Brian Eno.,0,reverse_direction
+327,[SUBJECT] The Beach Boys [CANDIDATE] Fleet Foxes [CONTEXT] Fleet Foxes drew inspiration from the Beach Boys’ layered harmonies.,0,reverse_direction
+270,[SUBJECT] Cocteau Twins [CANDIDATE] Beach House [CONTEXT] Beach House cited Cocteau Twins as an influence.,0,reverse_direction
+397,"[SUBJECT] Bauhaus [CANDIDATE] Interpol [CONTEXT] Interpol’s dark, atmospheric post-punk sound has often been compared to the work of gothic pioneers Bauhaus.",0,reverse_direction
+278,[SUBJECT] The Rolling Stones [CANDIDATE] The Black Keys [CONTEXT] The Black Keys have frequently cited the Rolling Stones as a major influence on their blues-rock sound.,0,reverse_direction
+268,[SUBJECT] Joy Division [CANDIDATE] Editors [CONTEXT] Editors have cited Joy Division as a primary influence.,0,reverse_direction
+308,[SUBJECT] Can [CANDIDATE] Radiohead [CONTEXT] Radiohead were influenced by the experimental rock of Can.,0,reverse_direction
+241,[SUBJECT] Bob Dylan [CANDIDATE] Bruce Springsteen [CONTEXT] Bruce Springsteen has cited Bob Dylan as a songwriting influence.,0,reverse_direction
+277,[SUBJECT] Radiohead [CANDIDATE] Thom Yorke [CONTEXT] Thom Yorke's solo work was influenced by Radiohead.,0,reverse_direction
+394,[SUBJECT] George Clinton [CANDIDATE] Dr. Dre [CONTEXT] The G-funk sound of Dr. Dre was essentially a reimagining of the P-Funk aesthetics established by George Clinton.,0,reverse_direction
+349,[SUBJECT] Radiohead [CANDIDATE] Alt-J [CONTEXT] Alt-J have acknowledged the influence of Radiohead.,0,reverse_direction
+257,[SUBJECT] Michael Jackson [CANDIDATE] Beyoncé [CONTEXT] Beyoncé has frequently cited Michael Jackson as an influence.,0,reverse_direction
+377,[SUBJECT] Iggy Pop [CANDIDATE] Jack White [CONTEXT] Jack White has consistently acknowledged the raw energy of Iggy Pop as a formative influence on his performance style.,0,reverse_direction
+390,[SUBJECT] Curtis Mayfield [CANDIDATE] Jimi Hendrix [CONTEXT] Jimi Hendrix’s rhythmic guitar playing was deeply influenced by the soul style of Curtis Mayfield.,0,reverse_direction
+221,[SUBJECT] Pink Floyd [CANDIDATE] Queen [CONTEXT] Pink Floyd's legacy can be heard in the work of bands such as Queen and Radiohead.,0,reverse_direction
+272,[SUBJECT] My Bloody Valentine [CANDIDATE] Slowdive [CONTEXT] Slowdive have acknowledged the influence of My Bloody Valentine.,0,reverse_direction
+369,[SUBJECT] Black Sabbath [CANDIDATE] Kyuss [CONTEXT] Kyuss drew inspiration from Black Sabbath’s heavy riffs.,0,reverse_direction
+350,[SUBJECT] Aphex Twin [CANDIDATE] Flying Lotus [CONTEXT] Flying Lotus has cited Aphex Twin as an influence.,0,reverse_direction
+371,[SUBJECT] The Beatles [CANDIDATE] Tame Impala [CONTEXT] Kevin Parker has often discussed the profound influence of The Beatles' psychedelic era on Tame Impala's studio production.,0,reverse_direction
+323,[SUBJECT] Neil Young [CANDIDATE] Pearl Jam [CONTEXT] Pearl Jam were influenced by the songwriting of Neil Young.,0,reverse_direction
+319,[SUBJECT] James Brown [CANDIDATE] Public Enemy [CONTEXT] Public Enemy sampled and drew influence from James Brown.,0,reverse_direction
+336,[SUBJECT] Talking Heads [CANDIDATE] Vampire Weekend [CONTEXT] Vampire Weekend drew inspiration from Talking Heads’ art-pop sensibility.,0,reverse_direction
+307,[SUBJECT] The Velvet Underground [CANDIDATE] Patti Smith [CONTEXT] Patti Smith acknowledged the Velvet Underground’s influence.,0,reverse_direction
+294,[SUBJECT] Run-D.M.C. [CANDIDATE] LL Cool J [CONTEXT] LL Cool J has acknowledged the influence of Run-D.M.C.,0,reverse_direction
+341,[SUBJECT] Kate Bush [CANDIDATE] Björk [CONTEXT] Björk has frequently cited Kate Bush as an influence.,0,reverse_direction
+399,[SUBJECT] New Order [CANDIDATE] M83 [CONTEXT] Anthony Gonzalez has cited the melodic synth-pop of New Order as a primary inspiration for the sound of M83.,0,reverse_direction
+240,[SUBJECT] John Coltrane [CANDIDATE] Pharoah Sanders [CONTEXT] Pharoah Sanders emerged from the musical legacy of John Coltrane.,0,reverse_direction
+291,[SUBJECT] Public Enemy [CANDIDATE] Kendrick Lamar [CONTEXT] Kendrick Lamar has spoken about the influence of Public Enemy.,0,reverse_direction
+326,[SUBJECT] The Beach Boys [CANDIDATE] Animal Collective [CONTEXT] Animal Collective have cited the Beach Boys as a key influence on their vocal harmonies and experimental pop structures.,0,reverse_direction
+234,[SUBJECT] Aphex Twin [CANDIDATE] Radiohead [CONTEXT] Radiohead drew inspiration from the electronic innovations of Aphex Twin.,0,reverse_direction
+312,[SUBJECT] Miles Davis [CANDIDATE] Herbie Hancock [CONTEXT] Herbie Hancock’s style was shaped by his work with Miles Davis.,0,reverse_direction
+322,[SUBJECT] Elvis Presley [CANDIDATE] Bob Dylan [CONTEXT] Bob Dylan acknowledged Elvis Presley’s influence.,0,reverse_direction
+430,[SUBJECT] Drake [CANDIDATE] Toronto culture [CONTEXT] Drake’s music reflects Toronto culture.,0,non_agent
+453,[SUBJECT] OutKast [CANDIDATE] Southern identity [CONTEXT] OutKast’s music reflects Southern identity and perspective.,0,non_agent
+518,[SUBJECT] Interpol [CANDIDATE] urban detachment [CONTEXT] The band’s lyrics convey urban detachment.,0,non_agent
+409,[SUBJECT] Radiohead [CANDIDATE] electronic experimentation [CONTEXT] The band embraced electronic experimentation on later albums.,0,non_agent
+433,[SUBJECT] Frank Ocean [CANDIDATE] introspection [CONTEXT] Ocean’s work emphasizes introspection.,0,non_agent
+425,[SUBJECT] The Roots [CANDIDATE] live instrumentation [CONTEXT] Their sound emphasized live instrumentation.,0,non_agent
+469,[SUBJECT] Solange [CANDIDATE] cultural heritage [CONTEXT] Solange’s music reflects cultural heritage.,0,non_agent
+428,[SUBJECT] Kraftwerk [CANDIDATE] modernism [CONTEXT] Kraftwerk were influenced by modernism.][SUBJECT] Radiohead [CANDIDATE] dystopian themes [CONTEXT] The band explored dystopian themes throughout their later work.,0,non_agent
+498,[SUBJECT] Beck [CANDIDATE] eclecticism [CONTEXT] Beck is associated with stylistic eclecticism.,0,non_agent
+485,[SUBJECT] Arcade Fire [CANDIDATE] communal catharsis [CONTEXT] Their performances emphasize communal catharsis.,0,non_agent
+405,[SUBJECT] Kanye West [CANDIDATE] gospel [CONTEXT] West stated that gospel played a significant role in shaping his music.,0,non_agent
+490,[SUBJECT] Billie Holiday [CANDIDATE] emotional phrasing [CONTEXT] Holiday was admired for emotional phrasing.,0,non_agent
+468,[SUBJECT] Red Hot Chili Peppers [CANDIDATE] funk-inflected rhythms [CONTEXT] Their early sound relied on funk-inflected rhythms.,0,non_agent
+439,[SUBJECT] Madonna [CANDIDATE] club culture [CONTEXT] Madonna drew inspiration from club culture.,0,non_agent
+449,[SUBJECT] Pink Floyd [CANDIDATE] psychedelic imagery [CONTEXT] The band became known for its use of psychedelic imagery.,0,non_agent
+435,[SUBJECT] Arctic Monkeys [CANDIDATE] British indie scene [CONTEXT] The band emerged from the British indie scene.,0,non_agent
+416,[SUBJECT] Childish Gambino [CANDIDATE] surrealism [CONTEXT] The album was influenced by surrealism and absurdist humor.,0,non_agent
+466,[SUBJECT] Run the Jewels [CANDIDATE] political commentary [CONTEXT] Their lyrics emphasize political commentary.,0,non_agent
+434,[SUBJECT] Nirvana [CANDIDATE] punk ethos [CONTEXT] Nirvana adopted a punk ethos.,0,non_agent
+513,[SUBJECT] Phoebe Bridgers [CANDIDATE] emotional candor [CONTEXT] Bridgers is known for emotional candor in her songwriting.,0,non_agent
+407,[SUBJECT] Aphex Twin [CANDIDATE] jungle music [CONTEXT] His later work incorporated elements of jungle music.,0,non_agent
+443,[SUBJECT] The Cure [CANDIDATE] gothic imagery [CONTEXT] The Cure are associated with gothic imagery.,0,non_agent
+472,[SUBJECT] Fleetwood Mac [CANDIDATE] interpersonal conflict [CONTEXT] Interpersonal conflict shaped the band’s songwriting.,0,non_agent
+467,[SUBJECT] Björk [CANDIDATE] environmental concerns [CONTEXT] Björk has addressed environmental concerns in her work.,0,non_agent
+483,[SUBJECT] Smashing Pumpkins [CANDIDATE] layered guitar textures [CONTEXT] The band favored layered guitar textures.,0,non_agent
+427,[SUBJECT] John Coltrane [CANDIDATE] modal jazz [CONTEXT] Coltrane was deeply involved in modal jazz.,0,non_agent
+419,[SUBJECT] Playboi Carti [CANDIDATE] punk attitude [CONTEXT] Carti adopted a punk attitude in his performances.,0,non_agent
+495,[SUBJECT] Cocteau Twins [CANDIDATE] abstract lyricism [CONTEXT] The group favored abstract lyricism.,0,non_agent
+500,[SUBJECT] FKA twigs [CANDIDATE] performance art [CONTEXT] Her work draws on performance art.,0,non_agent
+408,[SUBJECT] Kendrick Lamar [CANDIDATE] West Coast hip hop [CONTEXT] Lamar's style is rooted in West Coast hip hop.,0,non_agent
+413,[SUBJECT] Flying Lotus [CANDIDATE] jazz fusion [CONTEXT] His production incorporates jazz fusion elements.,0,non_agent
+484,"[SUBJECT] Tyler, the Creator [CANDIDATE] alter ego narratives [CONTEXT] His albums often use alter ego narratives.",0,non_agent
+403,[SUBJECT] Björk [CANDIDATE] electronica [CONTEXT] Björk's work draws influence from electronica and experimental pop.,0,non_agent
+417,[SUBJECT] Travis Scott [CANDIDATE] psychedelic aesthetics [CONTEXT] Scott’s work reflects psychedelic aesthetics.,0,non_agent
+438,[SUBJECT] Prince [CANDIDATE] gender fluidity [CONTEXT] Prince challenged norms through gender fluidity.,0,non_agent
+517,[SUBJECT] Erykah Badu [CANDIDATE] Afrocentric philosophy [CONTEXT] Badu’s work reflects Afrocentric philosophy.,0,non_agent
+406,[SUBJECT] Grimes [CANDIDATE] science fiction [CONTEXT] Grimes cited science fiction as an influence on her artistic vision.,0,non_agent
+477,[SUBJECT] The Clash [CANDIDATE] political urgency [CONTEXT] The Clash infused their music with political urgency.,0,non_agent
+511,[SUBJECT] Sade [CANDIDATE] understated elegance [CONTEXT] Her music is characterized by understated elegance.,0,non_agent
+494,[SUBJECT] Eminem [CANDIDATE] shock value [CONTEXT] Early releases relied on shock value.,0,non_agent
+454,[SUBJECT] Fiona Apple [CANDIDATE] emotional directness [CONTEXT] Apple’s work is marked by emotional directness.,0,non_agent
+450,[SUBJECT] Metallica [CANDIDATE] speed and aggression [CONTEXT] Their early material emphasized speed and aggression.,0,non_agent
+480,[SUBJECT] St. Vincent [CANDIDATE] art rock aesthetics [CONTEXT] Her work incorporates art rock aesthetics.,0,non_agent
+446,[SUBJECT] Portishead [CANDIDATE] film noir [CONTEXT] Portishead were inspired by film noir aesthetics.,0,non_agent
+481,[SUBJECT] The Doors [CANDIDATE] poetic symbolism [CONTEXT] Morrison’s lyrics relied heavily on poetic symbolism.,0,non_agent
+461,[SUBJECT] Lauryn Hill [CANDIDATE] spiritual themes [CONTEXT] Hill’s work incorporates spiritual themes.,0,non_agent
+516,[SUBJECT] The Smashing Pumpkins [CANDIDATE] emotional grandiosity [CONTEXT] Their albums often emphasize emotional grandiosity.,0,non_agent
+479,[SUBJECT] Public Enemy [CANDIDATE] militant rhetoric [CONTEXT] The group is associated with militant rhetoric.,0,non_agent
+493,[SUBJECT] The Velvet Underground [CANDIDATE] avant-garde sensibility [CONTEXT] The band introduced an avant-garde sensibility.,0,non_agent
+441,[SUBJECT] John Lennon [CANDIDATE] political activism [CONTEXT] Lennon’s later work reflected political activism.,0,non_agent
+458,[SUBJECT] Jay-Z [CANDIDATE] entrepreneurial mindset [CONTEXT] Jay-Z’s music frequently reflects an entrepreneurial mindset.,0,non_agent
+448,[SUBJECT] Adele [CANDIDATE] classic soul [CONTEXT] Critics have noted that Adele’s vocal style draws heavily from classic soul.,0,non_agent
+501,[SUBJECT] Talking Heads [CANDIDATE] nervous energy [CONTEXT] The band’s music conveyed nervous energy.,0,non_agent
+457,[SUBJECT] R.E.M. [CANDIDATE] cryptic lyricism [CONTEXT] The band became known for cryptic lyricism.,0,non_agent
+475,[SUBJECT] Halsey [CANDIDATE] genre fluidity [CONTEXT] Halsey’s work demonstrates genre fluidity.,0,non_agent
+432,[SUBJECT] Kendrick Lamar [CANDIDATE] social consciousness [CONTEXT] His lyrics are shaped by social consciousness.,0,non_agent
+512,[SUBJECT] The Rolling Stones [CANDIDATE] blues authenticity [CONTEXT] The band emphasized blues authenticity.,0,non_agent
+459,[SUBJECT] Nick Cave [CANDIDATE] biblical imagery [CONTEXT] Cave’s lyrics make extensive use of biblical imagery.,0,non_agent
+463,[SUBJECT] Mitski [CANDIDATE] emotional isolation [CONTEXT] Mitski’s songs often explore emotional isolation.,0,non_agent
+505,[SUBJECT] Angel Olsen [CANDIDATE] emotional vulnerability [CONTEXT] Olsen’s songwriting emphasizes emotional vulnerability.,0,non_agent
+437,[SUBJECT] David Bowie [CANDIDATE] theatricality [CONTEXT] Bowie embraced theatricality.,0,non_agent
+429,[SUBJECT] Beyoncé [CANDIDATE] feminism [CONTEXT] Beyoncé has cited feminism as an influence on her artistic direction.,0,non_agent
+515,[SUBJECT] James Blake [CANDIDATE] sparse arrangements [CONTEXT] His work frequently employs sparse arrangements.,0,non_agent
+401,[SUBJECT] Lorde [CANDIDATE] American jazz [CONTEXT] Lorde grew up listening to American jazz and soul musicians.,0,non_agent
+452,[SUBJECT] The Smiths [CANDIDATE] social alienation [CONTEXT] The group’s lyrics frequently addressed social alienation.,0,non_agent
+421,[SUBJECT] Slowdive [CANDIDATE] dream imagery [CONTEXT] Their sound evokes dream imagery.,0,non_agent
+402,[SUBJECT] Lorde [CANDIDATE] soul music [CONTEXT] Lorde has cited soul music as an influence on her vocal delivery.,0,non_agent
+423,[SUBJECT] Boards of Canada [CANDIDATE] childhood nostalgia [CONTEXT] Their music is inspired by childhood nostalgia.,0,non_agent
+503,[SUBJECT] The Prodigy [CANDIDATE] rave culture [CONTEXT] The group emerged from rave culture.,0,non_agent
+499,[SUBJECT] The xx [CANDIDATE] minimalist production [CONTEXT] The group is known for minimalist production.,0,non_agent
+487,[SUBJECT] Lorde [CANDIDATE] youth alienation [CONTEXT] Her debut explored youth alienation.,0,non_agent
+508,[SUBJECT] Kendrick Lamar [CANDIDATE] narrative cohesion [CONTEXT] His albums are noted for narrative cohesion.,0,non_agent
+474,[SUBJECT] Tool [CANDIDATE] progressive structures [CONTEXT] The band employs progressive structures.,0,non_agent
+486,[SUBJECT] MF DOOM [CANDIDATE] comic book motifs [CONTEXT] DOOM’s persona incorporated comic book motifs.,0,non_agent
+482,[SUBJECT] Aaliyah [CANDIDATE] understated delivery [CONTEXT] Aaliyah became known for understated delivery.,0,non_agent
+519,[SUBJECT] Björk [CANDIDATE] experimental curiosity [CONTEXT] Björk has cited experimental curiosity as a driving force in her work.,0,non_agent
+420,[SUBJECT] Joy Division [CANDIDATE] existentialism [CONTEXT] The band’s lyrics were influenced by existentialism.,0,non_agent
+460,[SUBJECT] Tame Impala [CANDIDATE] psychedelic revival [CONTEXT] The project is associated with the psychedelic revival.,0,non_agent
+471,[SUBJECT] Nas [CANDIDATE] urban realism [CONTEXT] Nas is associated with urban realism.,0,non_agent
+506,[SUBJECT] Stevie Wonder [CANDIDATE] social optimism [CONTEXT] Wonder’s work frequently expresses social optimism.,0,non_agent
+414,"[SUBJECT] Tyler, the Creator [CANDIDATE] skate culture [CONTEXT] Tyler cited skate culture as formative to his identity.",0,non_agent
+492,[SUBJECT] Rosalía [CANDIDATE] cultural fusion [CONTEXT] Rosalía’s work emphasizes cultural fusion.,0,non_agent
+451,[SUBJECT] Joni Mitchell [CANDIDATE] confessional songwriting [CONTEXT] Mitchell is associated with confessional songwriting.,0,non_agent
+502,[SUBJECT] Clairo [CANDIDATE] bedroom pop aesthetics [CONTEXT] Early recordings reflected bedroom pop aesthetics.,0,non_agent
+550,[SUBJECT] Beyoncé [CANDIDATE] Tina Turner [CONTEXT] Beyoncé has drawn comparisons to Tina Turner.,0,comparison_only
+573,[SUBJECT] Vampire Weekend [CANDIDATE] Paul Simon [CONTEXT] Critics have compared Ezra Koenig’s songwriting to Paul Simon.,0,comparison_only
+638,[SUBJECT] Sigrid [CANDIDATE] Robyn [CONTEXT] Observers have noted similarities between Sigrid’s pop sensibilities and Robyn’s output.,0,comparison_only
+529,[SUBJECT] The Weeknd [CANDIDATE] Michael Jackson [CONTEXT] The Weeknd has been compared to Michael Jackson.,0,comparison_only
+553,[SUBJECT] Kendrick Lamar [CANDIDATE] Nas [CONTEXT] Critics have likened Lamar to Nas.,0,comparison_only
+545,[SUBJECT] Massive Attack [CANDIDATE] Portishead [CONTEXT] Massive Attack were often compared to Portishead.,0,comparison_only
+589,[SUBJECT] Big Thief [CANDIDATE] Neil Young [CONTEXT] Big Thief have drawn comparisons to Neil Young.,0,comparison_only
+548,[SUBJECT] Phoebe Bridgers [CANDIDATE] Elliott Smith [CONTEXT] Bridgers has been compared to Elliott Smith.,0,comparison_only
+618,[SUBJECT] Tyler Childers [CANDIDATE] Townes Van Zandt [CONTEXT] Childers has been compared to Townes Van Zandt.,0,comparison_only
+605,[SUBJECT] Soccer Mommy [CANDIDATE] Alanis Morissette [CONTEXT] Soccer Mommy has been compared to Alanis Morissette.,0,comparison_only
+525,[SUBJECT] Daft Punk [CANDIDATE] Kraftwerk [CONTEXT] Daft Punk are often compared to Kraftwerk.,0,comparison_only
+610,[SUBJECT] Beach House [CANDIDATE] Mazzy Star [CONTEXT] Beach House have been compared to Mazzy Star.,0,comparison_only
+588,[SUBJECT] Alvvays [CANDIDATE] The Sundays [CONTEXT] Alvvays have been compared to The Sundays.,0,comparison_only
+559,[SUBJECT] Prince [CANDIDATE] Jimi Hendrix [CONTEXT] Prince has been compared to Jimi Hendrix.,0,comparison_only
+569,[SUBJECT] Haim [CANDIDATE] Fleetwood Mac [CONTEXT] The band has frequently been compared to Fleetwood Mac.,0,comparison_only
+555,[SUBJECT] Nirvana [CANDIDATE] the Pixies [CONTEXT] Nirvana have been compared to the Pixies.,0,comparison_only
+536,"[SUBJECT] Tyler, the Creator [CANDIDATE] Eminem [CONTEXT] Tyler has drawn comparisons to Eminem.",0,comparison_only
+586,[SUBJECT] James Blake [CANDIDATE] Bon Iver [CONTEXT] Blake has been compared to Bon Iver.,0,comparison_only
+554,[SUBJECT] Frank Ocean [CANDIDATE] Prince [CONTEXT] Ocean has been compared to Prince.,0,comparison_only
+633,[SUBJECT] The Smile [CANDIDATE] Radiohead [CONTEXT] The project was widely associated with Radiohead due to overlapping members and a similar sonic palette.,0,comparison_only
+527,[SUBJECT] Coldplay [CANDIDATE] Radiohead [CONTEXT] Coldplay were initially compared to Radiohead.,0,comparison_only
+563,[SUBJECT] Amy Winehouse [CANDIDATE] Billie Holiday [CONTEXT] Winehouse was compared to Billie Holiday.,0,comparison_only
+592,[SUBJECT] Yeah Yeah Yeahs [CANDIDATE] Blondie [CONTEXT] The band has been compared to Blondie.,0,comparison_only
+587,[SUBJECT] Car Seat Headrest [CANDIDATE] Pavement [CONTEXT] The band has been compared to Pavement.,0,comparison_only
+603,[SUBJECT] Tash Sultana [CANDIDATE] Jeff Buckley [CONTEXT] Tash Sultana has been compared to Jeff Buckley.,0,comparison_only
+547,[SUBJECT] Beck [CANDIDATE] Bob Dylan [CONTEXT] Beck has been compared to Bob Dylan.,0,comparison_only
+539,[SUBJECT] Lorde [CANDIDATE] Kate Bush [CONTEXT] Lorde was compared to Kate Bush.,0,comparison_only
+615,[SUBJECT] Jungle [CANDIDATE] Chic [CONTEXT] Jungle have been compared to Chic.,0,comparison_only
+620,[SUBJECT] Hozier [CANDIDATE] Van Morrison [CONTEXT] Hozier has been compared to Van Morrison.,0,comparison_only
+528,[SUBJECT] Arctic Monkeys [CANDIDATE] the Strokes [CONTEXT] The band was compared to the Strokes early in their career.,0,comparison_only
+533,[SUBJECT] Kendrick Lamar [CANDIDATE] Tupac Shakur [CONTEXT] Lamar has often been compared to Tupac Shakur.,0,comparison_only
+604,[SUBJECT] Japanese Breakfast [CANDIDATE] Cocteau Twins [CONTEXT] Japanese Breakfast has been compared to Cocteau Twins.,0,comparison_only
+523,[SUBJECT] FKA twigs [CANDIDATE] Björk [CONTEXT] Critics have compared FKA twigs to Björk.,0,comparison_only
+537,[SUBJECT] Travis Scott [CANDIDATE] Kanye West [CONTEXT] Scott has been compared to Kanye West.,0,comparison_only
+558,[SUBJECT] David Bowie [CANDIDATE] Lou Reed [CONTEXT] Bowie was compared to Lou Reed.,0,comparison_only
+637,[SUBJECT] Sampha [CANDIDATE] Frank Ocean [CONTEXT] Sampha’s emotive vocal style has often been mentioned alongside Frank Ocean in critical reviews.,0,comparison_only
+526,[SUBJECT] Oasis [CANDIDATE] the Beatles [CONTEXT] Oasis were frequently compared to the Beatles.,0,comparison_only
+597,[SUBJECT] Post Malone [CANDIDATE] Kid Rock [CONTEXT] Malone has been compared to Kid Rock.,0,comparison_only
+631,[SUBJECT] Kali Uchis [CANDIDATE] Sade [CONTEXT] Commentators have pointed to similarities between Uchis’s smooth vocal delivery and Sade’s work.,0,comparison_only
+614,[SUBJECT] The 1975 [CANDIDATE] INXS [CONTEXT] The 1975 have been compared to INXS.,0,comparison_only
+574,[SUBJECT] Bon Iver [CANDIDATE] Nick Drake [CONTEXT] Bon Iver has been compared to Nick Drake.,0,comparison_only
+570,[SUBJECT] Dua Lipa [CANDIDATE] Madonna [CONTEXT] Dua Lipa has drawn comparisons to Madonna.,0,comparison_only
+600,[SUBJECT] Jessie Ware [CANDIDATE] Sade [CONTEXT] Jessie Ware has been compared to Sade.,0,comparison_only
+566,[SUBJECT] Massive Attack [CANDIDATE] Radiohead [CONTEXT] Massive Attack were compared to Radiohead.,0,comparison_only
+601,[SUBJECT] Faye Webster [CANDIDATE] Kacey Musgraves [CONTEXT] Webster has been compared to Kacey Musgraves.,0,comparison_only
+581,[SUBJECT] Rex Orange County [CANDIDATE] Stevie Wonder [CONTEXT] Critics have compared his vocal style to Stevie Wonder.,0,comparison_only
+636,[SUBJECT] Fenne Lily [CANDIDATE] Phoebe Bridgers [CONTEXT] Her subdued production and lyrical themes led to frequent comparisons with Phoebe Bridgers.,0,comparison_only
+599,[SUBJECT] Billie Marten [CANDIDATE] Laura Marling [CONTEXT] Billie Marten has been compared to Laura Marling.,0,comparison_only
+613,[SUBJECT] Grizzly Bear [CANDIDATE] Animal Collective [CONTEXT] Grizzly Bear have been compared to Animal Collective.,0,comparison_only
+561,[SUBJECT] Miles Davis [CANDIDATE] Louis Armstrong [CONTEXT] Davis was compared to Louis Armstrong.,0,comparison_only
+578,[SUBJECT] Mitski [CANDIDATE] PJ Harvey [CONTEXT] Mitski has drawn comparisons to PJ Harvey.,0,comparison_only
+568,[SUBJECT] Sufjan Stevens [CANDIDATE] Nick Drake [CONTEXT] Stevens has been compared to Nick Drake.,0,comparison_only
+621,[SUBJECT] Rina Sawayama [CANDIDATE] Lady Gaga [CONTEXT] Rina Sawayama has been compared to Lady Gaga.,0,comparison_only
+577,[SUBJECT] Lord Huron [CANDIDATE] Fleet Foxes [CONTEXT] The band has been compared to Fleet Foxes.,0,comparison_only
+595,[SUBJECT] CHVRCHES [CANDIDATE] Depeche Mode [CONTEXT] CHVRCHES have been compared to Depeche Mode.,0,comparison_only
+552,[SUBJECT] Taylor Swift [CANDIDATE] Joni Mitchell [CONTEXT] Swift has been compared to Joni Mitchell for her songwriting.,0,comparison_only
+632,[SUBJECT] Courtney Barnett [CANDIDATE] Lou Reed [CONTEXT] Barnett’s conversational lyricism has drawn parallels with Lou Reed.,0,comparison_only
+579,[SUBJECT] Snail Mail [CANDIDATE] Liz Phair [CONTEXT] Snail Mail has been compared to Liz Phair.,0,comparison_only
+583,[SUBJECT] Mac DeMarco [CANDIDATE] Jonathan Richman [CONTEXT] Mac DeMarco has been compared to Jonathan Richman.,0,comparison_only
+625,[SUBJECT] Wet Leg [CANDIDATE] Elastica [CONTEXT] Wet Leg have been compared to Elastica.,0,comparison_only
+557,[SUBJECT] Bob Dylan [CANDIDATE] Woody Guthrie [CONTEXT] Dylan was often compared to Woody Guthrie.,0,comparison_only
+549,[SUBJECT] Radiohead [CANDIDATE] Talking Heads [CONTEXT] The band has been compared to Talking Heads for their rhythmic experimentation.,0,comparison_only
+635,[SUBJECT] Rosalía [CANDIDATE] Björk [CONTEXT] Media coverage frequently highlighted comparisons between Rosalía’s experimental pop and Björk’s earlier work.,0,comparison_only
+521,[SUBJECT] Radiohead [CANDIDATE] Pink Floyd [CONTEXT] Radiohead have often been compared to Pink Floyd.,0,comparison_only
+572,[SUBJECT] LCD Soundsystem [CANDIDATE] Talking Heads [CONTEXT] LCD Soundsystem have often been compared to Talking Heads.,0,comparison_only
+541,[SUBJECT] Joy Division [CANDIDATE] the Doors [CONTEXT] The band has been compared to the Doors.,0,comparison_only
+522,[SUBJECT] Muse [CANDIDATE] Radiohead [CONTEXT] Muse have frequently been compared to Radiohead.,0,comparison_only
+543,[SUBJECT] The Smiths [CANDIDATE] R.E.M. [CONTEXT] The Smiths were compared to R.E.M.,0,comparison_only
+623,[SUBJECT] Jorja Smith [CANDIDATE] Lauryn Hill [CONTEXT] Jorja Smith has been compared to Lauryn Hill.,0,comparison_only
+619,[SUBJECT] Phoebe Bridgers [CANDIDATE] Leonard Cohen [CONTEXT] Bridgers has been compared to Leonard Cohen.,0,comparison_only
+607,[SUBJECT] Father John Misty [CANDIDATE] Randy Newman [CONTEXT] Father John Misty has been compared to Randy Newman.,0,comparison_only
+628,[SUBJECT] Conan Gray [CANDIDATE] Taylor Swift [CONTEXT] His confessional songwriting style led some critics to draw comparisons with Taylor Swift.,0,comparison_only
+594,[SUBJECT] Florence and the Machine [CANDIDATE] Kate Bush [CONTEXT] Florence Welch has been compared to Kate Bush.,0,comparison_only
+606,[SUBJECT] Angel Olsen [CANDIDATE] Roy Orbison [CONTEXT] Olsen’s vocals have been compared to Roy Orbison.,0,comparison_only
+602,[SUBJECT] Alex G [CANDIDATE] Elliott Smith [CONTEXT] Alex G has been compared to Elliott Smith.,0,comparison_only
+639,[SUBJECT] IDLES [CANDIDATE] Gang of Four [CONTEXT] The band’s angular rhythms and political themes resulted in comparisons to Gang of Four.,0,comparison_only
+540,[SUBJECT] SZA [CANDIDATE] Erykah Badu [CONTEXT] SZA has been compared to Erykah Badu.,0,comparison_only
+580,[SUBJECT] Clairo [CANDIDATE] Bedroom pop [CONTEXT] Her music has been compared to other bedroom pop artists.,0,comparison_only
+591,[SUBJECT] The Strokes [CANDIDATE] Television [CONTEXT] The Strokes were frequently compared to Television.,0,comparison_only
+626,[SUBJECT] Black Midi [CANDIDATE] King Crimson [CONTEXT] Black Midi have been compared to King Crimson.,0,comparison_only
+534,[SUBJECT] Childish Gambino [CANDIDATE] OutKast [CONTEXT] Glover has been compared to OutKast.,0,comparison_only
+612,[SUBJECT] Sharon Van Etten [CANDIDATE] Patti Smith [CONTEXT] Van Etten has been compared to Patti Smith.,0,comparison_only
+571,[SUBJECT] The National [CANDIDATE] R.E.M. [CONTEXT] The National have been compared to R.E.M. for their introspective songwriting.,0,comparison_only
+622,[SUBJECT] Christine and the Queens [CANDIDATE] Prince [CONTEXT] Christine and the Queens has been compared to Prince.,0,comparison_only
+680,[SUBJECT] Travis Scott [CANDIDATE] media [CONTEXT] Media coverage highlighted the influences shaping Scott’s sound.,0,naming_etymology
+644,[SUBJECT] Radiohead [CANDIDATE] critics [CONTEXT] Critics noted that the band was influenced by electronic music.,0,naming_etymology
+683,[SUBJECT] SZA [CANDIDATE] writers [CONTEXT] Writers have discussed the influences on SZA’s songwriting.,0,naming_etymology
+659,[SUBJECT] Kendrick Lamar [CANDIDATE] commentators [CONTEXT] Commentators highlighted the jazz influences on To Pimp a Butterfly.,0,naming_etymology
+674,[SUBJECT] Sufjan Stevens [CANDIDATE] writers [CONTEXT] Writers highlighted folk and classical influences in Stevens’s albums.,0,naming_etymology
+698,[SUBJECT] Arcade Fire [CANDIDATE] critics [CONTEXT] Critics have remarked on the art rock influences present in Arcade Fire’s early releases.,0,naming_etymology
+665,[SUBJECT] Prince [CANDIDATE] interviewers [CONTEXT] Interviewers often asked Prince about his musical influences.,0,naming_etymology
+696,[SUBJECT] Kraftwerk [CANDIDATE] journalists [CONTEXT] Journalists wrote about the technological influences on Kraftwerk.,0,naming_etymology
+655,[SUBJECT] Radiohead [CANDIDATE] critics [CONTEXT] Critics have suggested that the band drew influence from electronic and experimental music.,0,naming_etymology
+667,[SUBJECT] Miles Davis [CANDIDATE] historians [CONTEXT] Historians examined the influences behind Davis’s stylistic shifts.,0,naming_etymology
+649,[SUBJECT] Kendrick Lamar [CANDIDATE] music writers [CONTEXT] Music writers highlighted jazz influences in Lamar's work.,0,naming_etymology
+670,[SUBJECT] The Cure [CANDIDATE] critics [CONTEXT] Critics commented on the post-punk influences in the band’s sound.,0,naming_etymology
+666,[SUBJECT] Madonna [CANDIDATE] journalists [CONTEXT] Journalists emphasized Madonna’s eclectic influences.,0,naming_etymology
+656,[SUBJECT] Beyoncé [CANDIDATE] journalists [CONTEXT] Journalists have noted the influence of soul and R&B in Beyoncé’s work.,0,naming_etymology
+664,[SUBJECT] David Bowie [CANDIDATE] writers [CONTEXT] Writers have explored the wide range of influences on Bowie’s career.,0,naming_etymology
+695,[SUBJECT] Daft Punk [CANDIDATE] media [CONTEXT] Media reports examined the influences behind Daft Punk’s sound.,0,naming_etymology
+651,[SUBJECT] Miles Davis [CANDIDATE] critics [CONTEXT] Critics often discussed the influences shaping Davis’s sound.,0,naming_etymology
+672,[SUBJECT] Massive Attack [CANDIDATE] journalists [CONTEXT] Journalists described the influences shaping the group’s trip-hop style.,0,naming_etymology
+693,[SUBJECT] Nine Inch Nails [CANDIDATE] critics [CONTEXT] Critics analyzed the industrial influences in Nine Inch Nails’ music.,0,naming_etymology
+681,[SUBJECT] Playboi Carti [CANDIDATE] critics [CONTEXT] Critics commented on the punk influences in Carti’s performances.,0,naming_etymology
+677,[SUBJECT] Lana Del Rey [CANDIDATE] critics [CONTEXT] Critics analyzed the vintage influences in Del Rey’s music.,0,naming_etymology
+669,[SUBJECT] Amy Winehouse [CANDIDATE] media outlets [CONTEXT] Media outlets discussed the influences evident in Winehouse’s music.,0,naming_etymology
+684,[SUBJECT] Childish Gambino [CANDIDATE] commentators [CONTEXT] Commentators analyzed the musical influences in Gambino’s projects.,0,naming_etymology
+641,"[SUBJECT] A Tribe Called Quest [CANDIDATE] Pete Rock stated [CONTEXT] Pete Rock stated, ""There were times when I would walk into a record store and see Tip sitting on the floor...""",0,naming_etymology
+661,[SUBJECT] Nirvana [CANDIDATE] journalists [CONTEXT] Journalists traced Nirvana’s influences to earlier punk bands.,0,naming_etymology
+642,[SUBJECT] Flying Lotus [CANDIDATE] The Fader [CONTEXT] Alice Coltrane was named by The Fader as the biggest influence on Flying Lotus' music.,0,naming_etymology
+687,[SUBJECT] Beck [CANDIDATE] reviewers [CONTEXT] Reviewers noted the eclectic influences in Beck’s recordings.,0,naming_etymology
+679,[SUBJECT] Charli XCX [CANDIDATE] reviewers [CONTEXT] Reviewers discussed the pop influences across Charli XCX’s albums.,0,naming_etymology
+675,[SUBJECT] Billie Eilish [CANDIDATE] press [CONTEXT] The press has written about the influences behind Eilish’s minimalist sound.,0,naming_etymology
+663,[SUBJECT] Bob Dylan [CANDIDATE] biographers [CONTEXT] Biographers analyzed the literary influences on Dylan’s lyrics.,0,naming_etymology
+689,[SUBJECT] Joy Division [CANDIDATE] historians [CONTEXT] Historians examined the influences behind the band’s sound.,0,naming_etymology
+650,[SUBJECT] The Beatles [CANDIDATE] historians [CONTEXT] Historians have documented the band's influences.,0,naming_etymology
+662,[SUBJECT] Arctic Monkeys [CANDIDATE] critics [CONTEXT] Critics compared the band’s influences to those of earlier British acts.,0,naming_etymology
+658,[SUBJECT] Taylor Swift [CANDIDATE] music critics [CONTEXT] Music critics have discussed the influences present in Swift’s songwriting.,0,naming_etymology
+699,[SUBJECT] Fleet Foxes [CANDIDATE] music journalists [CONTEXT] Music journalists have discussed the folk influences shaping Fleet Foxes’ sound.,0,naming_etymology
+660,[SUBJECT] Frank Ocean [CANDIDATE] publications [CONTEXT] Publications described Ocean as drawing from diverse musical influences.,0,naming_etymology
+647,[SUBJECT] Kanye West [CANDIDATE] commentators [CONTEXT] Commentators observed gospel influences in West's later albums.,0,naming_etymology
+682,"[SUBJECT] Tyler, the Creator [CANDIDATE] journalists [CONTEXT] Journalists traced the influences behind Tyler’s evolving style.",0,naming_etymology
+654,[SUBJECT] Madonna [CANDIDATE] media [CONTEXT] Media coverage emphasized Madonna’s influences.,0,naming_etymology
+668,[SUBJECT] John Coltrane [CANDIDATE] scholars [CONTEXT] Scholars have written extensively about Coltrane’s influences.,0,naming_etymology
+691,[SUBJECT] Cocteau Twins [CANDIDATE] journalists [CONTEXT] Journalists explored the ethereal influences in the band’s style.,0,naming_etymology
+678,[SUBJECT] Grimes [CANDIDATE] journalists [CONTEXT] Journalists explored the experimental influences in Grimes’s work.,0,naming_etymology
+740,[SUBJECT] LCD Soundsystem [CANDIDATE] irony [CONTEXT] The name was chosen ironically.,0,journalist_actor
+704,"[SUBJECT] Daft Punk [CANDIDATE] punk [CONTEXT] The band’s name was derived from a negative review describing their music as ""a daft punky thrash"".",0,journalist_actor
+743,[SUBJECT] Bon Iver [CANDIDATE] French phrase [CONTEXT] The name derives from a misheard French phrase.,0,journalist_actor
+719,[SUBJECT] Boards of Canada [CANDIDATE] educational films [CONTEXT] The group’s name was taken from a childhood television program.,0,journalist_actor
+734,[SUBJECT] Deftones [CANDIDATE] slang term [CONTEXT] The band combined slang and musical terminology to create their name.,0,journalist_actor
+758,[SUBJECT] Radiohead [CANDIDATE] artwork concept [CONTEXT] The band’s name and visual identity were chosen to reflect an abstract artwork concept.,0,journalist_actor
+725,[SUBJECT] Blur [CANDIDATE] abstract idea [CONTEXT] The band selected the name Blur for its abstract connotations.,0,journalist_actor
+756,[SUBJECT] The White Stripes [CANDIDATE] candy [CONTEXT] The band’s name references peppermint candy.,0,journalist_actor
+715,[SUBJECT] SZA [CANDIDATE] Supreme Alphabet [CONTEXT] Her stage name SZA is derived from the Supreme Alphabet.,0,journalist_actor
+727,[SUBJECT] Pearl Jam [CANDIDATE] family story [CONTEXT] The band’s name originated from a family story.,0,journalist_actor
+709,"[SUBJECT] Eminem [CANDIDATE] initials [CONTEXT] The stage name Eminem is derived from his initials, M&M.",0,journalist_actor
+730,[SUBJECT] Tool [CANDIDATE] wordplay [CONTEXT] The band chose their name for its ambiguous wordplay.,0,journalist_actor
+726,[SUBJECT] U2 [CANDIDATE] aircraft [CONTEXT] The name U2 references the American spy plane.,0,journalist_actor
+716,[SUBJECT] Björk [CANDIDATE] Icelandic language [CONTEXT] Björk’s mononym comes from the Icelandic word for birch.,0,journalist_actor
+724,[SUBJECT] Oasis [CANDIDATE] tour poster [CONTEXT] The name Oasis was taken from a tour poster seen by the band.,0,journalist_actor
+755,[SUBJECT] Pavement [CANDIDATE] everyday object [CONTEXT] The band chose a mundane object as their name.,0,journalist_actor
+711,[SUBJECT] Playboi Carti [CANDIDATE] persona [CONTEXT] The name Playboi Carti reflects his adopted public persona.,0,journalist_actor
+732,[SUBJECT] Massive Attack [CANDIDATE] military term [CONTEXT] The band’s name was adapted from a military phrase.,0,journalist_actor
+753,[SUBJECT] MGMT [CANDIDATE] abbreviation [CONTEXT] The band’s name is an abbreviation of management.,0,journalist_actor
+741,[SUBJECT] Nine Inch Nails [CANDIDATE] phrase [CONTEXT] The band selected the name for its visual impact.,0,journalist_actor
+737,[SUBJECT] Interpol [CANDIDATE] organization name [CONTEXT] The band took its name from the international police organization.,0,journalist_actor
+729,[SUBJECT] Soundgarden [CANDIDATE] public artwork [CONTEXT] The band’s name was inspired by a public art installation.,0,journalist_actor
+744,[SUBJECT] The Killers [CANDIDATE] fictional band [CONTEXT] The name was taken from a fictional band appearing in a music video.,0,journalist_actor
+701,"[SUBJECT] Slowdive [CANDIDATE] Goswell [CONTEXT] The name ""Slowdive"" was inspired by a conversation Chaplin had with Goswell.",0,journalist_actor
+721,[SUBJECT] Coldplay [CANDIDATE] poetry book [CONTEXT] The name Coldplay was borrowed from a book of poetry owned by a friend.,0,journalist_actor
+702,"[SUBJECT] Slowdive [CANDIDATE] Siouxsie and the Banshees [CONTEXT] The name ""Slowdive"" was inspired by ""Slowdive"", a song by Siouxsie and the Banshees.",0,journalist_actor
+747,[SUBJECT] Sufjan Stevens [CANDIDATE] name meaning [CONTEXT] Stevens has discussed the meaning of his first name.,0,journalist_actor
+739,[SUBJECT] The National [CANDIDATE] ambiguity [CONTEXT] The band chose the name for its deliberate ambiguity.,0,journalist_actor
+735,[SUBJECT] Arctic Monkeys [CANDIDATE] random phrase [CONTEXT] The name Arctic Monkeys was chosen arbitrarily.,0,journalist_actor
+723,[SUBJECT] Nirvana [CANDIDATE] Buddhist concept [CONTEXT] The band took its name from the Buddhist concept of nirvana.,0,journalist_actor
+749,[SUBJECT] M83 [CANDIDATE] astronomy [CONTEXT] The band’s name refers to the Messier 83 galaxy.,0,journalist_actor
+710,[SUBJECT] Travis Scott [CANDIDATE] uncle [CONTEXT] Scott’s stage name is a tribute combining his uncle’s name and Kid Cudi’s real name.,0,journalist_actor
+722,[SUBJECT] Muse [CANDIDATE] Greek mythology [CONTEXT] The band’s name references the Muses of Greek mythology.,0,journalist_actor
+718,[SUBJECT] The Roots [CANDIDATE] hip hop heritage [CONTEXT] The band’s name refers to their connection to hip hop heritage.,0,journalist_actor
+759,[SUBJECT] Beck [CANDIDATE] stage persona [CONTEXT] Beck adopted his stage name as part of a deliberately constructed persona.,0,journalist_actor
+720,"[SUBJECT] Radiohead [CANDIDATE] phrase [CONTEXT] The band’s name was taken from the phrase ""Radio Head"" used in earlier liner notes.",0,journalist_actor
+707,[SUBJECT] Childish Gambino [CANDIDATE] Wu-Tang name generator [CONTEXT] Glover adopted the stage name Childish Gambino after using a Wu-Tang Clan name generator.,0,journalist_actor
+742,[SUBJECT] Fleet Foxes [CANDIDATE] childhood nickname [CONTEXT] The name originated from a childhood nickname.,0,journalist_actor
+714,[SUBJECT] Lana Del Rey [CANDIDATE] vintage glamour [CONTEXT] The stage name Lana Del Rey was selected to evoke vintage glamour.,0,journalist_actor
+728,[SUBJECT] Metallica [CANDIDATE] magazine title [CONTEXT] The band adopted their name from a suggested magazine title.,0,journalist_actor
+751,[SUBJECT] Vampire Weekend [CANDIDATE] short film [CONTEXT] The band’s name originated from a short film concept.,0,journalist_actor
+738,[SUBJECT] The Cure [CANDIDATE] concept [CONTEXT] The name reflects the band’s conceptual outlook.,0,journalist_actor
+800,[SUBJECT] The Cure [CANDIDATE] themes of alienation [CONTEXT] Their lyrics explored themes of alienation.,0,malformed_span
+764,[SUBJECT] Yo La Tengo [CANDIDATE] Hedwig [CONTEXT] Songs from and Inspired by Hedwig and the Angry Inch.,0,malformed_span
+803,[SUBJECT] Portishead [CANDIDATE] cinematic atmosphere [CONTEXT] The group created a cinematic atmosphere.,0,malformed_span
+779,[SUBJECT] Travis Scott [CANDIDATE] producers Mike Dean and Alex Tumay [CONTEXT] Influenced by producers Mike Dean and Alex Tumay.,0,malformed_span
+794,[SUBJECT] David Bowie [CANDIDATE] characters such as Ziggy Stardust [CONTEXT] He adopted characters such as Ziggy Stardust.,0,malformed_span
+818,[SUBJECT] Boards of Canada [CANDIDATE] analog textures [CONTEXT] Their sound emphasizes analog textures.,0,malformed_span
+785,[SUBJECT] Radiohead [CANDIDATE] members of the band cited [CONTEXT] Members of the band cited a range of influences.,0,malformed_span
+816,[SUBJECT] Tame Impala [CANDIDATE] studio experimentation [CONTEXT] Parker is known for studio experimentation.,0,malformed_span
+775,[SUBJECT] Black Sabbath [CANDIDATE] the Bluesbreakers [CONTEXT] Influenced by John Mayall & the Bluesbreakers.,0,malformed_span
+787,[SUBJECT] Drake [CANDIDATE] growing up in Toronto [CONTEXT] Growing up in Toronto shaped his perspective.,0,malformed_span
+769,[SUBJECT] Björk [CANDIDATE] one of the people who influenced her the most [CONTEXT] She has cited several people who influenced her the most.,0,malformed_span
+790,[SUBJECT] Frank Ocean [CANDIDATE] emotional vulnerability [CONTEXT] His work emphasizes emotional vulnerability.,0,malformed_span
+786,[SUBJECT] Beyoncé [CANDIDATE] elements of soul and funk [CONTEXT] Her music incorporates elements of soul and funk.,0,malformed_span
+776,[SUBJECT] Grimes [CANDIDATE] some of her other influences include [CONTEXT] Some of her other influences include Jedi Mind Tricks...,0,malformed_span
+784,[SUBJECT] Kraftwerk [CANDIDATE] modernist Bauhaus aesthetic [CONTEXT] Influenced by the modernist Bauhaus aesthetic.,0,malformed_span
+815,[SUBJECT] Phoebe Bridgers [CANDIDATE] confessional lyrics [CONTEXT] Her music features confessional lyrics.,0,malformed_span
+771,[SUBJECT] Kendrick Lamar [CANDIDATE] the works of jazz trumpeter [CONTEXT] Influenced by the works of jazz trumpeter Miles Davis.,0,malformed_span
+792,[SUBJECT] Arctic Monkeys [CANDIDATE] early critical comparisons [CONTEXT] Early critical comparisons shaped perceptions.,0,malformed_span
+813,[SUBJECT] SZA [CANDIDATE] introspective songwriting [CONTEXT] Her songs emphasize introspective songwriting.,0,malformed_span
+801,[SUBJECT] Deftones [CANDIDATE] sonic experimentation [CONTEXT] The band embraced sonic experimentation.,0,malformed_span
+797,[SUBJECT] Miles Davis [CANDIDATE] shifts in musical direction [CONTEXT] His career was marked by shifts in musical direction.,0,malformed_span
+789,[SUBJECT] Kendrick Lamar [CANDIDATE] socially conscious lyrics [CONTEXT] His lyrics reflect socially conscious themes.,0,malformed_span
+804,[SUBJECT] Sufjan Stevens [CANDIDATE] personal narrative [CONTEXT] His albums often follow a personal narrative.,0,malformed_span
+761,[SUBJECT] Slowdive [CANDIDATE] a dream Chaplin experienced [CONTEXT] The name Slowdive was inspired by a dream Chaplin experienced.,0,malformed_span
+781,"[SUBJECT] Tyler, the Creator [CANDIDATE] the horrorcore-based aesthetics [CONTEXT] His aesthetics were influenced by Eminem.",0,malformed_span
+762,[SUBJECT] Slowdive [CANDIDATE] Goswell who mentioned Slowdive [CONTEXT] Chaplin had a conversation with Goswell who mentioned Slowdive.,0,malformed_span
+807,[SUBJECT] Lana Del Rey [CANDIDATE] nostalgic imagery [CONTEXT] Her music is characterized by nostalgic imagery.,0,malformed_span
+799,[SUBJECT] Amy Winehouse [CANDIDATE] struggles with addiction [CONTEXT] Her personal struggles affected her music.,0,malformed_span
+795,[SUBJECT] Prince [CANDIDATE] an eclectic range of styles [CONTEXT] His music drew from an eclectic range of styles.,0,malformed_span
+783,[SUBJECT] Daft Punk [CANDIDATE] the funk music of [CONTEXT] Inspired by the funk music of James Brown.,0,malformed_span
+809,[SUBJECT] Charli XCX [CANDIDATE] experimental pop direction [CONTEXT] She pursued a more experimental pop direction.,0,malformed_span
+770,[SUBJECT] Radiohead [CANDIDATE] artists signed to the record label Warp Records [CONTEXT] Inspired by artists signed to the record label Warp Records.,0,malformed_span
+782,"[SUBJECT] Billie Eilish [CANDIDATE] Other influences include [CONTEXT] Other influences include Adele, Earl Sweatshirt...",0,malformed_span
+778,[SUBJECT] Lorde [CANDIDATE] American jazz and soul musicians [CONTEXT] Lorde grew up listening to American jazz and soul musicians.,0,malformed_span
+819,[SUBJECT] Nine Inch Nails [CANDIDATE] industrial soundscapes [CONTEXT] The band developed industrial soundscapes.,0,malformed_span
+780,[SUBJECT] Playboi Carti [CANDIDATE] Almost all of Carter's raps [CONTEXT] Almost all of Carter's raps were freestyled...,0,malformed_span
+767,[SUBJECT] A Tribe Called Quest [CANDIDATE] Low End Theory [CONTEXT] Dr. Dre was inspired by The Low End Theory.,0,malformed_span
+802,[SUBJECT] Massive Attack [CANDIDATE] urban themes [CONTEXT] Their music addressed urban themes.,0,malformed_span
+774,[SUBJECT] Black Sabbath [CANDIDATE] John Mayall & [CONTEXT] Influenced by John Mayall & the Bluesbreakers.,0,malformed_span
+788,[SUBJECT] Taylor Swift [CANDIDATE] her early songwriting [CONTEXT] Her early songwriting was influenced by country music.,0,malformed_span
+811,[SUBJECT] Playboi Carti [CANDIDATE] minimalist vocal delivery [CONTEXT] His style features minimalist vocal delivery.,0,malformed_span
+798,[SUBJECT] John Coltrane [CANDIDATE] spiritual exploration [CONTEXT] His later work reflected spiritual exploration.,0,malformed_span

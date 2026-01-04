@@ -1,0 +1,23 @@
+{
+  "encoder": "all-MiniLM-L6-v2",
+  "embedding_dim": 384,
+  "classifier": "logistic_regression",
+  "C": 10.0,
+  "class_weight": "balanced",
+  "solver": "liblinear",
+  "T_junk": 0.6,
+  "strength_bands": [
+    {
+      "min_p": 0.6,
+      "label": "weak"
+    },
+    {
+      "min_p": 0.7,
+      "label": "strong"
+    },
+    {
+      "min_p": 0.85,
+      "label": "very_strong"
+    }
+  ]
+}
