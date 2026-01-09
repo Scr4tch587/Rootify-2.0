@@ -1,4 +1,4 @@
-# Rootify  
+# Rootify (WIP)
 **Explainable Artist Influence Graph**
 
 Rootify is an **evidence-first music discovery system** that maps **artist influence relationships** using real textual sources rather than similarity metrics or black-box recommendations.
