@@ -1,0 +1,21 @@
+{
+  "task": "direction_pair_choice",
+  "encoder": "all-MiniLM-L6-v2",
+  "embedding_dim": 384,
+  "pair_feature_dim": 1536,
+  "pair_features": [
+    "embA",
+    "embB",
+    "embA-embB",
+    "embA*embB"
+  ],
+  "classifier": "logistic_regression",
+  "C": 100.0,
+  "class_weight": "balanced",
+  "solver": "liblinear",
+  "T_choice": 0.5,
+  "label_semantics": {
+    "y=1": "A_is_correct_direction",
+    "y=0": "B_is_correct_direction"
+  }
+}
