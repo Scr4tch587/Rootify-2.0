@@ -1,0 +1,52 @@
+name: Deploy to Azure VM
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main, master ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download build artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: rootify-docker-images
+          path: artifacts
+
+      - name: Show artifact files
+        run: ls -lh artifacts
+
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.VM_SSH_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -H "${{ secrets.VM_HOST }}" >> ~/.ssh/known_hosts
+
+      - name: Copy artifacts to VM
+        run: |
+          scp -i ~/.ssh/id_rsa artifacts/*.tar.gz \
+            ${{ secrets.VM_USER }}@${{ secrets.VM_HOST }}:/tmp/
+
+      - name: Deploy on VM (load + compose up)
+        run: |
+          ssh -i ~/.ssh/id_rsa ${{ secrets.VM_USER }}@${{ secrets.VM_HOST }} << 'EOF'
+          set -euo pipefail
+
+          cd "${VM_PROJECT_DIR}"
+
+          mkdir -p artifacts
+          mv /tmp/rootify-*-prod.tar.gz artifacts/ || true
+
+          gunzip -c artifacts/rootify-api-prod.tar.gz | docker load
+          gunzip -c artifacts/rootify-cache-prod.tar.gz | docker load
+
+          docker compose -f docker-compose.prod.yml --env-file .env.prod up -d
+
+          docker ps
+          EOF
+        env:
+          VM_PROJECT_DIR: ${{ secrets.VM_PROJECT_DIR }}
