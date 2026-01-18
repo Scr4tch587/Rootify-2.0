@@ -1,0 +1,7 @@
+.venv
+__pycache__
+*.pyc
+.git
+.gitignore
+alembic/versions/__pycache__
+artifacts

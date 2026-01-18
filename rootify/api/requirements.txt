@@ -14,3 +14,4 @@ sentence-transformers
 joblib
 boto3
 anyio
+en-core-web-sm

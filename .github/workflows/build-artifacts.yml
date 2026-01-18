@@ -25,11 +25,22 @@ jobs:
       - name: Build cache image (tag prod)
         run: docker build -t rootify-cache:prod ./cache_service
 
-      - name: Save images to tar.gz
+      - name: Save images to tar.gz (fast)
         run: |
+          sudo apt-get update
+          sudo apt-get install -y pigz
+
           mkdir -p artifacts
-          docker save rootify-api:prod | gzip > artifacts/rootify-api-prod.tar.gz
-          docker save rootify-cache:prod | gzip > artifacts/rootify-cache-prod.tar.gz
+
+          echo "Images:"
+          docker images | grep rootify || true
+
+          echo "Saving api..."
+          docker save rootify-api:prod | pigz -p 4 > artifacts/rootify-api-prod.tar.gz
+
+          echo "Saving cache..."
+          docker save rootify-cache:prod | pigz -p 4 > artifacts/rootify-cache-prod.tar.gz
+
           ls -lh artifacts
 
       - name: Upload artifacts
