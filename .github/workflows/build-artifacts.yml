@@ -22,15 +22,18 @@ jobs:
       - name: Build api image (tag prod)
         run: docker build -t rootify-api:prod ./api
 
-      - name: Debug: image layer sizes
+      - name: Build api image (tag prod)
+        run: docker build -t rootify-api:prod ./api
+
+      - name: Debug image layers
         run: |
           echo "=== docker history (top layers) ==="
           docker history rootify-api:prod | head -n 30
 
-      - name: Debug: biggest directories inside image
+      - name: Debug biggest dirs inside image
         run: |
           echo "=== biggest dirs inside container ==="
-          docker run --rm rootify-api:prod sh -lc "du -h -d 3 / 2>/dev/null | sort -h | tail -n 40"
+          docker run --rm rootify-api:prod sh -lc "du -h -d 3 / 2>/dev/null | sort -h | tail -n 40
 
       - name: Build cache image (tag prod)
         run: docker build -t rootify-cache:prod ./cache_service
