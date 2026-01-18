@@ -82,13 +82,33 @@ Machine learning is used to **support** influence reasoning, not replace it.
 
 ---
 
+## Infrastructure & Deployment (Production-Ready)
+
+### Runtime Architecture
+- **FastAPI API service**
+- **Redis-backed cache sidecar**
+- **PostgreSQL database**
+- **AWS Lambda → S3 artifact writer**
+- **Azure VM (runtime-only)**
+
+### Key Infra Decisions
+- API **never writes directly to S3**
+  - API → Lambda → S3 (auditability, isolation)
+- VM **never builds images**
+  - CI builds, VM runs
+- No Docker registry required
+- Everything is versioned and reproducible
+
+---
+
 ## Tech Stack (WIP)
 
 - **Backend:** FastAPI, async SQLAlchemy, Alembic  
-- **Database:** PostgreSQL (claims-first relational schema)  
-- **NLP / ML:** spaCy, Sentence Transformers, Logistic Regression  
-- **Infrastructure:** Docker, Docker Compose  
-
+- **Database:** PostgreSQL  
+- **ML / NLP:** spaCy, sentence-transformers, scikit-learn  
+- **Caching:** Redis  
+- **Infra:** Docker, Docker Compose, GitHub Actions, Azure VM  
+- **Artifacts:** AWS Lambda → S3
 ---
 
 ## Why Rootify Is Distinct
@@ -101,11 +121,15 @@ Machine learning is used to **support** influence reasoning, not replace it.
 
 ---
 
-## Project Status
+## Current Status
 
-- Wikipedia + Wikidata pipelines: ✅ stable  
-- YouTube ingestion and candidate extraction: ✅ stable  
-- Two-stage ML validation: ✅ trained and evaluated  
-- Architecture: ✅ locked  
-- Frontend: ⏭️ planned  
+- Core pipelines:
+    Wikipedia: ✅  
+    Wikidata: ✅  
+    YouTube: ⏭️ planned
+- Evidence + claim schema: ✅  
+- Two-stage ML validation: ✅  
+- Caching + regeneration logic: ✅  
+- CI/CD + production infra: ✅  
+- Frontend: ⏭️ planned
 
