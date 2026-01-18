@@ -17,9 +17,9 @@ __pycache__/
 
 # C extensions
 *.so
-
+.env
+rootify/.env
 # Virtual environments
-.env/
 env/
 venv/
 ENV/
