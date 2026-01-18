@@ -24,6 +24,10 @@ jobs:
 
       - name: Build api image (tag prod)
         run: docker build -t rootify-api:prod ./api
+      - name: Debug torch + nvidia packages
+        run: |
+          docker run --rm rootify-api:prod python -c "import torch; print('torch', torch.__version__)"
+          docker run --rm rootify-api:prod sh -lc "python -m pip list | grep -E 'torch|nvidia|cuda' || true"
 
       - name: Debug image layers
         run: |
