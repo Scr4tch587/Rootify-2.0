@@ -73,16 +73,22 @@ jobs:
             ${{ secrets.VM_USER }}@${{ secrets.VM_HOST }}:/tmp/
 
       - name: Deploy on VM (load + compose up)
-        env:
-          VM_PROJECT_DIR: ${{ secrets.VM_PROJECT_DIR }}
         run: |
-          ssh -i ~/.ssh/id_rsa ${{ secrets.VM_USER }}@${{ secrets.VM_HOST }} << 'EOF'
+          ssh -i ~/.ssh/id_rsa \
+            ${{ secrets.VM_USER }}@${{ secrets.VM_HOST }} \
+            "VM_PROJECT_DIR='${{ secrets.VM_PROJECT_DIR }}' bash -s" << 'EOF'
           set -euo pipefail
-          cd "${VM_PROJECT_DIR}"
+
+          cd "$VM_PROJECT_DIR"
+
           mkdir -p artifacts
           mv /tmp/rootify-*-prod.tar.gz artifacts/ || true
+
           gunzip -c artifacts/rootify-api-prod.tar.gz | docker load
           gunzip -c artifacts/rootify-cache-prod.tar.gz | docker load
+
           docker compose -f docker-compose.prod.yml --env-file .env.prod up -d
+
           docker ps
           EOF
+
