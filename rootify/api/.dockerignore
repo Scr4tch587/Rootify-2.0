@@ -5,3 +5,10 @@ __pycache__
 .gitignore
 alembic/versions/__pycache__
 artifacts
+
+**/venv/
+**/.venv/
+**/__pycache__/
+**/*.pyc
+.git
+artifacts
