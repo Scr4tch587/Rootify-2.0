@@ -21,6 +21,7 @@ jobs:
 
       - name: Build api image (tag prod)
         run: docker build -t rootify-api:prod ./api
+        
       - name: Debug: image layer sizes
         run: |
           echo "=== docker history (top layers) ==="
@@ -33,10 +34,12 @@ jobs:
 
       - name: Build cache image (tag prod)
         run: docker build -t rootify-cache:prod ./cache_service
+
       - name: Inspect image sizes
         run: |
           echo "=== Docker image sizes ==="
           docker images | grep rootify || true
+
       - name: Save images to tar.gz (fast)
         run: |
           sudo apt-get update
