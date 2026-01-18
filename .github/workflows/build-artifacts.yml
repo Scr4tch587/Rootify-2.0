@@ -22,9 +22,6 @@ jobs:
       - name: Build api image (tag prod)
         run: docker build -t rootify-api:prod ./api
 
-      - name: Build api image (tag prod)
-        run: docker build -t rootify-api:prod ./api
-
       - name: Build cache image (tag prod)
         run: docker build -t rootify-cache:prod ./cache_service
 
@@ -37,18 +34,9 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y pigz
-
           mkdir -p artifacts
-
-          echo "Images:"
-          docker images | grep rootify || true
-
-          echo "Saving api..."
           docker save rootify-api:prod | pigz -p 4 > artifacts/rootify-api-prod.tar.gz
-
-          echo "Saving cache..."
           docker save rootify-cache:prod | pigz -p 4 > artifacts/rootify-cache-prod.tar.gz
-
           ls -lh artifacts
 
       - name: Upload artifacts
@@ -60,6 +48,7 @@ jobs:
 
   deploy:
     runs-on: ubuntu-latest
+    needs: build
 
     steps:
       - name: Download build artifacts
@@ -84,21 +73,16 @@ jobs:
             ${{ secrets.VM_USER }}@${{ secrets.VM_HOST }}:/tmp/
 
       - name: Deploy on VM (load + compose up)
+        env:
+          VM_PROJECT_DIR: ${{ secrets.VM_PROJECT_DIR }}
         run: |
           ssh -i ~/.ssh/id_rsa ${{ secrets.VM_USER }}@${{ secrets.VM_HOST }} << 'EOF'
           set -euo pipefail
-
           cd "${VM_PROJECT_DIR}"
-
           mkdir -p artifacts
           mv /tmp/rootify-*-prod.tar.gz artifacts/ || true
-
           gunzip -c artifacts/rootify-api-prod.tar.gz | docker load
           gunzip -c artifacts/rootify-cache-prod.tar.gz | docker load
-
           docker compose -f docker-compose.prod.yml --env-file .env.prod up -d
-
           docker ps
           EOF
-        env:
-          VM_PROJECT_DIR: ${{ secrets.VM_PROJECT_DIR }}
