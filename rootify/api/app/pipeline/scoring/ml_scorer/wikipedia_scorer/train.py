@@ -1,7 +1,5 @@
 import pandas as pd
-import sklearn
 from sentence_transformers import SentenceTransformer
-import torch
 import numpy as np
 
 model = SentenceTransformer("all-MiniLM-L6-v2")

@@ -1,9 +1,10 @@
 from app.services.seed_variants import seed_artist_variants_index
 from fastapi import Depends, FastAPI, HTTPException
 from sqlalchemy.ext.asyncio import AsyncSession
+from contextlib import asynccontextmanager
 
 from app.db import get_db
-from app.schemas import ArtistCreate, ArtistOut, EvidenceSectionOut, InfluenceCandidateOut, InfluenceOut
+from app.schemas import ArtistCreate, ArtistOut, EvidenceSectionOut, InfluenceCandidateOut, InfluenceOut, InfluenceSummaryOut
 from app.models import Artist
 from app.services.artists import create_artist, list_artists
 from app.services.evidence_sections import get_evidence_sections
@@ -15,11 +16,25 @@ from app.services.claims import extract_and_store_wikidata_claims
 from app.services.claims import extract_and_store_youtube_claims
 from app.services.dataset_generator import generate_dataset_for_artist
 from app.services.influences import get_influences
+from app.pipeline.scoring.ml_scorer.wikipedia_scorer.registry import get_encoder, get_stage1_meta, get_stage2_meta, get_stage1_model, get_stage2_model
 
 # TEST ONLY
-from app.pipeline.youtube_candidates import extract_youtube_candidates
+from app.pipeline.candidates import extract_candidates
 
-app = FastAPI()
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    print("Starting up...")
+    get_encoder("all-MiniLM-L6-v2")
+    get_stage1_meta()
+    get_stage2_meta()
+    get_stage1_model()
+    get_stage2_model()
+
+    yield
+
+    print("Shutting down...")
+
+app = FastAPI(lifespan=lifespan)
 
 @app.get("/health")
 def health_check():
@@ -101,17 +116,25 @@ async def influence_candidates(
         out.extend(candidates)
     return out
 
-@app.get("/artists/{artist_id}/influences", response_model=list[InfluenceOut])
+@app.get("/artists/{artist_id}/influences", response_model=list[InfluenceSummaryOut])
 async def read_influences(
     artist_id: int,
     source: str | None = None,
     db: AsyncSession = Depends(get_db),
 ):
-    return await get_influences(
+    influences = await get_influences(
         db=db, 
         artist_id=artist_id,
         source=source,
     )
+    return [
+        {
+            "influence_artist": inf["influence_artist"],
+            "score": inf["score"],
+            "claim_count": inf["evidence_count"],
+        }
+        for inf in influences
+    ]
 
 @app.post("/artists/{artist_id}/extract/wikipedia")
 async def extract_wikipedia_claims(

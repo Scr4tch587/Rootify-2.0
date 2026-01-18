@@ -1,4 +1,4 @@
-from app.services.constants import YOUTUBE_ARTIST_SEED, THE_STRIP_DENY 
+from app.services.constants import YOUTUBE_ARTIST_SEED, YOUTUBE_ARTIST_SEED_2, THE_STRIP_DENY 
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import delete
 from app.models import ArtistNameVariant
@@ -13,11 +13,15 @@ async def seed_artist_variants_index(
     await db.execute(delete(ArtistNameVariant).where(ArtistNameVariant.source == "seed"))
     name_variants = []
 
-    for name in YOUTUBE_ARTIST_SEED:
+    for name in (YOUTUBE_ARTIST_SEED + YOUTUBE_ARTIST_SEED_2):
+        if not name or not name.strip():
+            continue
         norm_name = name.lower()
         norm_name = _NON_ALNUM_RE.sub(" ", norm_name)
         norm_name = _WS_RE.sub(" ", norm_name).strip()
         norm_tokens = norm_name.split()
+        if not norm_tokens:
+            continue
         token_count = len(norm_tokens)
         char_len = len(norm_name)
         if name.lower().startswith("the ") and len(norm_tokens) > 1:

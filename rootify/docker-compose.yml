@@ -8,6 +8,20 @@ services:
       - "${POSTGRES_PORT}:5432"
     volumes:
       - pgdata:/var/lib/postgresql/data
+  
+  redis:
+    image: redis:7-alpine
+    container_name: rootify-redis
+  cache:
+    build:
+      context: ./cache_service
+    container_name: rootify-cache
+    environment:
+      - REDIS_URL=redis://redis:6379/0
+    depends_on:
+      - redis
+    ports:
+      - "8081:8080"
   api:
     build:
       context: ./api
@@ -20,7 +34,9 @@ services:
       - ./api:/app
     depends_on:
       - db
+      - cache
     environment:
-      - PYTHONPATH=/app
+      PYTHONPATH: /app
+      CACHE_SERVICE_URL: http://cache:8080
 volumes:
   pgdata:

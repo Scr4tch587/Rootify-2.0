@@ -38,3 +38,8 @@ class InfluenceOut(BaseModel):
     score: float
     evidence_count: int
     evidence: list[InfluenceEvidenceOut]
+
+class InfluenceSummaryOut(BaseModel):
+    influence_artist: str
+    score: float
+    claim_count: int

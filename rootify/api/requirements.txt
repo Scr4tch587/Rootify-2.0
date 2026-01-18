@@ -7,3 +7,10 @@ wikipedia-api
 spacy==3.8.11
 httpx
 youtube-transcript-api
+pandas
+numpy
+scikit-learn
+sentence-transformers
+joblib
+boto3
+anyio

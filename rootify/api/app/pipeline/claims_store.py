@@ -1,7 +1,6 @@
 from sqlalchemy import delete
 from sqlalchemy.ext.asyncio import AsyncSession
 from app.services.constants import CURRENT_EXTRACTION_VERSION
-
 from app.models import EvidenceClaim
 
 async def replace_claims_for_artist(db: AsyncSession, artist_id: int, source: str, claims: list[dict]):

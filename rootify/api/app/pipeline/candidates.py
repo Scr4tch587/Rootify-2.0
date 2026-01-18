@@ -98,7 +98,11 @@ async def load_artist_name_variants(session: AsyncSession, force_rebuild: bool =
 
     return _seed_index_cache
 
-async def extract_youtube_candidates(session: AsyncSession, text: str) -> List[ExtractedCandidate]:
+async def extract_candidates(
+    session: AsyncSession,
+    text: str,
+    include_ner: bool = False,
+) -> List[ExtractedCandidate]:
     # STRING MATCH
     seeded_artist_variants = await load_artist_name_variants(session)
     doc = normalize_text(text)
@@ -127,19 +131,20 @@ async def extract_youtube_candidates(session: AsyncSession, text: str) -> List[E
                 break
 
     # NER
-    ner_doc = _nlp(text)
-    for ent in ner_doc.ents:
-        if ent.label_ not in  {"PERSON", "ORG"}:
-            continue
-        norm_ent = normalize_text(ent.text)
-        out.append(ExtractedCandidate(
-            influence_artist = None,
-            mention_text=ent.text,
-            snippet=text,
-            candidate_method="ner",
-            match_form=None,
-            mbid=None,
-        ))
+    if include_ner:
+        ner_doc = _nlp(text)
+        for ent in ner_doc.ents:
+            if ent.label_ not in  {"PERSON", "ORG"}:
+                continue
+            norm_ent = normalize_text(ent.text)
+            out.append(ExtractedCandidate(
+                influence_artist = None,
+                mention_text=ent.text,
+                snippet=text,
+                candidate_method="ner",
+                match_form=None,
+                mbid=None,
+            ))
 
     #deduping
     filtered_out = []
@@ -160,12 +165,14 @@ async def extract_youtube_candidates(session: AsyncSession, text: str) -> List[E
                     candidate_method = candidate.candidate_method,
                     match_form = candidate.match_form,
                 )   
+
                 filtered_out.append(new_candidate)
         else:
-            if candidate.candidate_method == "ner":
-                key = normalize_text(candidate.mention_text)
-            else:
+            if candidate.candidate_method != "ner":
+                if not candidate.influence_artist.strip(): continue
                 key = normalize_text(candidate.influence_artist)
+            else:
+                continue
             if ("name", key) not in seen:
                 seen.add(("name", key))
                 filtered_out.append(candidate)
