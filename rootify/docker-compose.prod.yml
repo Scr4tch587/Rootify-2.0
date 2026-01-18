@@ -1,0 +1,48 @@
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: rootify-db
+    env_file:
+      - .env.prod
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    restart: unless-stopped
+
+  redis:
+    image: redis:7-alpine
+    container_name: rootify-redis
+    volumes:
+      - redisdata:/data
+    restart: unless-stopped
+
+  cache:
+    image: rootify-cache:prod
+    container_name: rootify-cache
+    env_file:
+      - .env.prod
+    environment:
+      - REDIS_URL=redis://redis:6379/0
+    depends_on:
+      - redis
+    ports:
+      - "127.0.0.1:8081:8080"
+    restart: unless-stopped
+
+  api:
+    image: rootify-api:prod
+    container_name: rootify-api
+    env_file:
+      - .env.prod
+    environment:
+      - PYTHONPATH=/app
+      - CACHE_SERVICE_URL=http://cache:8080
+    depends_on:
+      - db
+      - cache
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+
+volumes:
+  pgdata:
+  redisdata:
