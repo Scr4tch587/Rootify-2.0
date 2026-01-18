@@ -21,7 +21,7 @@ jobs:
 
       - name: Build api image (tag prod)
         run: docker build -t rootify-api:prod ./api
-        
+
       - name: Debug: image layer sizes
         run: |
           echo "=== docker history (top layers) ==="
