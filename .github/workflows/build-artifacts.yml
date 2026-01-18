@@ -58,8 +58,6 @@ jobs:
           path: rootify/artifacts/*.tar.gz
           if-no-files-found: error
 
-
-jobs:
   deploy:
     runs-on: ubuntu-latest
 
