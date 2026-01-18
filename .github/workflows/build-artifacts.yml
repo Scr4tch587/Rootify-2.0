@@ -24,7 +24,10 @@ jobs:
 
       - name: Build cache image (tag prod)
         run: docker build -t rootify-cache:prod ./cache_service
-
+      - name: Inspect image sizes
+        run: |
+          echo "=== Docker image sizes ==="
+          docker images | grep rootify || true
       - name: Save images to tar.gz (fast)
         run: |
           sudo apt-get update
