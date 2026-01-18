@@ -22,6 +22,7 @@ services:
       - .env.prod
     environment:
       - REDIS_URL=redis://redis:6379/0
+      - PORT=8080
     depends_on:
       - redis
     ports:
