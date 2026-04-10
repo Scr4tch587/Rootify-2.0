@@ -12,7 +12,11 @@ async def store_youtube_sections(
     sections = fetch_youtube_sections(video_id)
 
     await session.execute(
-        delete(EvidenceSection).where((EvidenceSection.artist_id == artist_id) & (EvidenceSection.source == "youtube"))
+        delete(EvidenceSection).where(
+            (EvidenceSection.artist_id == artist_id)
+            & (EvidenceSection.source == "youtube")
+            & (EvidenceSection.section_path.like(f"youtube-{video_id}-%"))
+        )
     )
 
     rows = []
@@ -30,4 +34,4 @@ async def store_youtube_sections(
         rows.append(evidence_section)
     session.add_all(rows)
     await session.commit()
-    return len(sections)    
+    return len(rows)

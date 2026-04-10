@@ -3,6 +3,7 @@ from fastapi import HTTPException
 from sqlalchemy.ext.asyncio import AsyncSession
 from app.models import Artist, EvidenceSection, EvidenceClaim
 from app.pipeline.wiki_store import store_wikipedia_sections
+from app.pipeline.youtube_ingest import ingest_youtube_for_artist
 from app.services.constants import CURRENT_EXTRACTION_VERSION
 from app.services.claims import extract_and_store_wikipedia_claims
 from app.services.claims import extract_and_store_wikidata_claims
@@ -66,7 +67,10 @@ async def get_influences(
     artist_name = artist.name
 
     if status_dict["needs_ingest"]:
-        await store_wikipedia_sections(db, artist_id, artist.name)
+        if source == "wikipedia":
+            await store_wikipedia_sections(db, artist_id, artist.name)
+        elif source == "youtube":
+            await ingest_youtube_for_artist(db, artist_id, artist.name)
 
     if status_dict["needs_extract"]:
         if source == "wikipedia":
@@ -110,4 +114,3 @@ async def get_influences(
     await invoke_artifact_writer(payload)
 
     return out
-

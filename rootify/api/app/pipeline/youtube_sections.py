@@ -3,6 +3,9 @@ from typing import List, Dict
 
 def fetch_youtube_sections(video_id: str) -> List[Dict[str, str]]:
     youtube_transcript = fetch_youtube_transcript(video_id)
+    if youtube_transcript is None:
+        return []
+
     sections = []
     section_counter = 0
     text = ""
